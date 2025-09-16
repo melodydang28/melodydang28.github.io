@@ -67,7 +67,7 @@ body#secondLayout main{
     '. . . . p11 p11'
     'c4 c4 c4 . . .';
 }
-
+/*Assigned grid names to DOM elements*/
 #secondLayout #titleRow{
     grid-area:title;
 }
@@ -115,4 +115,9 @@ body#secondLayout main{
 }
 #secondLayout #callout4{
     grid-area: c4;
+}
+
+/*override the baseline p styles for the second part*/ 
+#secondLayout p{
+    width: 100%; 
 }
