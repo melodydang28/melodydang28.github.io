@@ -24,7 +24,9 @@ p.callout{
     font-size: 2rem; 
     line-height: auto; 
     font-style: italic; 
+    float: right; 
 }
-#row1 p {
+#row1 p,
+#row3 p {
     margin-left: calc(100% /6); 
 }
