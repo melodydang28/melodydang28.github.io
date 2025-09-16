@@ -48,7 +48,7 @@ p.callout{
 body#secondLayout main{
     display: grid; 
     grid-template-columns: repeat(6,auto); 
-    grid-template-rows: repeat(19,auto); 
+    grid-template-rows: repeat(20,auto); 
     grid-template-areas: 
     'title title title title title title'
     'p1 p1 . . . .'
@@ -68,7 +68,8 @@ body#secondLayout main{
     'c4 c4 c4 . . .'
     'p12 p12 p12 . . .'
     'p13 p13 p13 . . .'
-    'p14 p14 p14 . . .';
+    'p14 p14 p14 . . .'
+    'p15 p15 p15 . . .';
 }
 /*Assigned grid names to DOM elements*/
 #secondLayout #titleRow{
@@ -124,6 +125,9 @@ body#secondLayout main{
 }
 #secondLayout #para14{
     grid-area: p14;
+}
+#secondLayout #para15{
+    grid-area: p15;
 }
 
 /*override the baseline p styles for the second part*/ 
