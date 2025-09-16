@@ -68,8 +68,7 @@ body#secondLayout main{
     'c4 c4 c4 . . .'
     'p12 p12 p12 . . .'
     'p13 p13 p13 . . .'
-    'p14 p14 p14 . . .'
-    '. . . . . p15';
+    'p14 p14 p14 . . p15';
 }
 /*Assigned grid names to DOM elements*/
 #secondLayout #titleRow{
