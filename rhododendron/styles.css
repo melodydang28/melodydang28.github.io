@@ -38,3 +38,21 @@ header{
     font-size: 2.5em; 
     width: calc(100vw - 2em); 
 }
+
+
+/*Put rest of mobile layout here*/
+@media screen and (orientation: landscape){
+    #rhodPic {
+        width: 50vw; 
+    }
+    #rhodTitle{
+        width: 50vw;
+        left: 50vw; 
+        background-color: #9e7c7c;
+    }
+    #rhodTitle h1{
+        width: 45vw; 
+    }
+}
+
+/*Put rest of desktop layout here*/
