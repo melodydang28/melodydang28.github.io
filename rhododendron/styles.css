@@ -40,7 +40,7 @@ header{
 }
 
 
-/*Put rest of mobile layout here*/
+/*Put rest of mobile baseline layout here*/
 @media screen and (orientation: landscape){
     #rhodPic {
         width: 50vw; 
@@ -53,6 +53,8 @@ header{
     #rhodTitle h1{
         width: 45vw; 
     }
+
+    /*Put rest of desktop layout here*/
 }
 
-/*Put rest of desktop layout here*/
+
