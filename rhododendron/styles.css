@@ -50,17 +50,18 @@ header{
     }
 /*Needs to move up*/
     #rhodeInformation{
-        position: absolute; 
+        position: right; 
         right: 1em; 
         text-align: right;
         font-size: 1.5em;
         padding: 1cm;
         width: calc(100vw - 2em); 
     }
-
+/*
 #footer p{
     position: bottom; 
-}
+}*/
+
 /*Put rest of mobile baseline layout here*/
 @media screen and (orientation: landscape){
     #rhodPic {
@@ -69,7 +70,7 @@ header{
     #rhodTitle{
         width: 50vw;
         left: 50vw; 
-        background-color: #9e7c7c;
+        background-color: #ce8c8c;
     }
     #rhodTitle h1{
         width: 45vw; 
