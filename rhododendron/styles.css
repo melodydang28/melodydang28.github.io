@@ -41,11 +41,11 @@ header{
 
 
     #rhodInformationNames{
-        position: absolute; 
+        position: left; 
         left: 1em; 
         text-align: left;
         font-size: 1.5em; 
-        padding: 1cm; 
+        padding: 1cm;
         width: calc(100vw - 2em); 
     }
 
