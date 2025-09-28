@@ -42,7 +42,7 @@ header{
 
     #rhodInformationNames{
         position: absolute;
-        top: 140vh;   
+        top: 160vh;   
         right: 50vw; 
         text-align: left;
         font-size: 1.5em; 
@@ -82,7 +82,7 @@ header{
     }
     
     #rhodInformationNames{
-        width: 50vw;
+        width: 60vw;
         top: 100vh; 
         right: 50vw; 
         background-color: #BE7575; 
