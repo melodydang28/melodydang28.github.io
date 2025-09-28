@@ -40,17 +40,20 @@ header{
 }
 
     #rhodInformationNames{
-        position: absolute; 
+        position: absolute;
+        top: 100vh;  
         left: 1em; 
+        left: 50vw; 
         text-align: left;
         font-size: 1.5em; 
         padding: 1cm;
         width: calc(100vw - 2em); 
     }
 /*Needs to move up*/
-    #rhodeInformation{
+    #rhodInformation{
         position: absolute; 
         top: 100vh; 
+        right: 1em; 
         right: 50vw; 
         text-align: right;
         font-size: 1.5em;
@@ -81,8 +84,9 @@ header{
         left: 50vw; 
         background-color: #BE7575; 
     }
-    #rhodeInformation{
+    #rhodInformation{
         width: 50vw;
+        top: 100vh; 
         left: 50vw; 
         background-color: #BE7575;
     }
