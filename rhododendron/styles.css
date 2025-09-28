@@ -48,8 +48,10 @@ header{
     }
 
     #rhodeInformation{
-    position: absolute; 
-    text-align: right; 
+        position: absolute; 
+        text-align: right;
+        font-size: 1.5em;
+        width: calc(100vw - 2em); 
     }
 
 /*Put rest of mobile baseline layout here*/
