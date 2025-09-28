@@ -58,7 +58,7 @@ header{
         width: calc(100vw - 2em); 
     }
 
-#footer{
+#footer p{
     position: bottom; 
 }
 /*Put rest of mobile baseline layout here*/
