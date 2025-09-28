@@ -36,25 +36,23 @@ header{
     left: 1em;
     color:white; 
     font-size: 2.5em; 
-    width: calc(100vw - 2em); 
+    width: calc(50vw - 2em); 
 }
 
     #rhodInformationNames{
         position: absolute;
-        top: 100vh;  
-        left: 1em; 
-        left: 50vw; 
+        top: 100vh;   
+        left: 0; 
+        width: calc(100vw - 2em); 
         text-align: left;
         font-size: 1.5em; 
         padding: 1cm;
-        width: calc(100vw - 2em); 
     }
-/*Needs to move up*/
+/*Don't change*/
     #rhodInformation{
         position: absolute; 
         top: 100vh; 
-        right: 1em; 
-        right: 50vw; 
+        left: 50vw; 
         text-align: right;
         font-size: 1.5em;
         padding: 1cm;
