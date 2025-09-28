@@ -80,7 +80,7 @@ header{
     #rhodTitle h1{
         width: 45vw; 
     }
-    /*
+    
     #rhodInformationNames{
         width: 50vw;
         top: 100vh; 
@@ -93,7 +93,6 @@ header{
         left: 50vw; 
         background-color: #BE7575;
     }
-        */
     /*Put rest of desktop layout here*/
 }
 
