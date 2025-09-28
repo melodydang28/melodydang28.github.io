@@ -29,7 +29,7 @@ header{
     width: 50vw; 
     height:100vh; 
 }
-
+/*Don't change*/
 #rhodTitle h1{
     position: absolute; 
     bottom: 50; 
@@ -42,25 +42,25 @@ header{
 
     #rhodInformationNames{
         position: absolute;
-        top: 100;   
-        left: 0;
-        width: calc(100vw - 2em); 
+        top: 100vh;   
+        right: 50vw; 
         text-align: left;
         font-size: 1.5em; 
         padding: 1cm;
+        width: calc(100vw - 2em);
         z-index: 10;
     }
 /*Don't change*/
-    #rhodInformation{
-        position: absolute; 
-        top: 100vh; 
-        left: 50vw; 
-        text-align: right;
-        font-size: 1.5em;
-        padding: 1cm;
-        width: calc(100vw - 2em); 
-        z-index: 10; 
-    }
+#rhodInformation{
+    position: absolute; 
+    top: 100vh; 
+    left: 50vw; 
+    text-align: right;
+    font-size: 1.5em;
+    padding: 1cm;
+    width: calc(100vw - 2em); 
+    z-index: 10; 
+}
 
 #footer p{
     position: absolute; 
