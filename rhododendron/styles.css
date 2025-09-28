@@ -32,7 +32,7 @@ header{
 
 #rhodTitle h1{
     position: absolute; 
-    bottom: 50vh; 
+    bottom: 50; 
     left: 1em;
     color:white; 
     font-size: 2.5em; 
@@ -93,6 +93,7 @@ header{
         left: 50vw; 
         background-color: #BE7575;
     }
+
     /*Put rest of desktop layout here*/
 }
 
