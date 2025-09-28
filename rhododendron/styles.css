@@ -41,7 +41,7 @@ header{
 
 /*Lost in the page*/
     #rhodInformationNames{
-        position: absolute; 
+        position: left; 
         left: 1em; 
         text-align: left;
         font-size: 1.5em; 
