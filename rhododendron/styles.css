@@ -70,6 +70,12 @@ header{
     #rhodTitle h1{
         width: 45vw; 
     }
+    #rhodInformationNames{
+        background-color: #BE7575; 
+    }
+    #rhodeInformation{
+        background-color: #BE7575;
+    }
     /*Put rest of desktop layout here*/
 }
 
