@@ -40,10 +40,12 @@ header{
 }
 
 #rhodInformationNames{
+    position: absolute; 
     text-align: left;
 }
 
 #rhodeInformation{
+    position: absolute; 
     text-align: right; 
 }
 /*Put rest of mobile baseline layout here*/
