@@ -40,7 +40,7 @@ header{
 }
 
 #rhodInformationNames{
-    position: absolute; 
+    position: top; 
     text-align: left;
 }
 
