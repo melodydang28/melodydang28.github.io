@@ -78,7 +78,8 @@ header{
         background-color: #BE7575; 
     }
     #rhodeInformation{
-        width: 50vw; 
+        width: 50vw;
+        left: 50vw; 
         background-color: #BE7575;
     }
     /*Put rest of desktop layout here*/
