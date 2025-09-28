@@ -27,7 +27,7 @@ header{
 #rhodTitle {
     position: absolute; 
     width: 100vw; 
-    height:100vh; 
+    height:50vh; 
 }
 
 #rhodTitle h1{
