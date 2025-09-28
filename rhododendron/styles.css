@@ -43,7 +43,7 @@ header{
     #rhodInformationNames{
         position: absolute; 
         left: 1em; 
-        text-align: right;
+        text-align: left;
         font-size: 1em; 
         padding: 1cm;
         width: calc(100vw - 2em); 
