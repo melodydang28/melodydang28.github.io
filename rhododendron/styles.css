@@ -43,7 +43,6 @@ header{
         position: absolute;
         top: 100vh;   
         left: 0;
-        right: 50vw;  
         width: calc(100vw - 2em); 
         text-align: left;
         font-size: 1.5em; 
