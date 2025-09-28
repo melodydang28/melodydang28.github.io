@@ -41,8 +41,10 @@ header{
 
 
     #rhodInformationNames{
-        position: top; 
+        position: absolute; 
         text-align: left;
+        left: 1em; 
+        font-size: 1.5em; 
     }
 
     #rhodeInformation{
