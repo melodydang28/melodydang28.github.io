@@ -82,6 +82,7 @@ header{
     }
     #rhodInformationNames{
         width: 50vw;
+        top: 100vh;
         left: 50vw; 
         background-color: #BE7575; 
     }
