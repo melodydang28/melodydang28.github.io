@@ -38,19 +38,7 @@ header{
     font-size: 2.5em; 
     width: calc(100vw - 2em); 
 }
-#rhodInformationNames{
-    width: 100vw; 
-    height: 100vh;
-    position: top; 
-    text-align: left;
-}
 
-#rhodeInformation{
-    width: 100vw; 
-    height: 100vh;
-    position: absolute; 
-    text-align: right; 
-}
 
 /*Put rest of mobile baseline layout here*/
 @media screen and (orientation: landscape){
@@ -65,13 +53,16 @@ header{
     #rhodTitle h1{
         width: 45vw; 
     }
-    #rhodInformationNames {
-        width: 45vw;
-    }
-    #rhodeInformation{
-        width: 45vw;
+
+    #rhodInformationNames{
+        position: top; 
+        text-align: left;
     }
 
+    #rhodeInformation{
+        position: absolute; 
+        text-align: right; 
+    }
     /*Put rest of desktop layout here*/
 }
 
