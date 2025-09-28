@@ -39,15 +39,7 @@ header{
     width: calc(100vw - 2em); 
 }
 
-#rhodInformationNames{
-    position: top; 
-    text-align: left;
-}
 
-#rhodeInformation{
-    position: absolute; 
-    text-align: right; 
-}
 /*Put rest of mobile baseline layout here*/
 @media screen and (orientation: landscape){
     #rhodPic {
@@ -62,6 +54,15 @@ header{
         width: 45vw; 
     }
 
+    #rhodInformationNames{
+        position: top; 
+        text-align: left;
+    }
+
+    #rhodeInformation{
+        position: absolute; 
+        text-align: right; 
+    }
     /*Put rest of desktop layout here*/
 }
 
