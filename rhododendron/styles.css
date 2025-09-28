@@ -39,7 +39,6 @@ header{
     width: calc(100vw - 2em); 
 }
 
-/*Needs to move up*/
     #rhodInformationNames{
         position: absolute; 
         left: 1em; 
@@ -52,7 +51,7 @@ header{
     #rhodeInformation{
         position: absolute; 
         top: 100vh; 
-        right: 1em; 
+        right: 50vw; 
         text-align: right;
         font-size: 1.5em;
         padding: 1cm;
