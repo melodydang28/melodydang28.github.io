@@ -51,6 +51,7 @@ header{
 /*Needs to move up*/
     #rhodeInformation{
         position: absolute; 
+        top: 100vh; 
         right: 1em; 
         text-align: right;
         font-size: 1.5em;
