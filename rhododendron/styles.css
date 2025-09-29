@@ -41,9 +41,9 @@ header{
 }
 
     #rhodInformationNames{
-        position: absolute;
+        /*position: absolute;
         top: 160vh;   
-        right: 50vw; 
+        right: 50vw; */
         text-align: left;
         font-size: 1.5em; 
         padding: 1cm;
