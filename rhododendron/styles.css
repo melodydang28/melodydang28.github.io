@@ -68,7 +68,7 @@ header{
     bottom: 0.5vh; 
 }
 
-/*Put rest of mobile baseline layout here*/
+  /*Put rest of desktop layout here*/
 @media screen and (orientation: landscape){
     #rhodPic {
         width: 50vw; 
@@ -99,7 +99,10 @@ header{
         left: 50vw; 
         background-color:#BE7575;
     }
-    /*Put rest of desktop layout here*/
+}
+/*Put mobile format here*/
+@media screen and (orientation: portrait){
+    
 }
 
 
