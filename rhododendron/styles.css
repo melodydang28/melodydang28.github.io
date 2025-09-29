@@ -41,9 +41,6 @@ header{
 }
 
     #rhodInformationNames{
-        /*position: absolute;
-        top: 160vh;   
-        right: 50vw; */
         text-align: left;
         font-size: 1.5em; 
         padding: 1.5cm;
@@ -65,7 +62,9 @@ header{
 
 #footer p{
     position: absolute; 
-    bottom: 0; 
+    text-align: left; 
+    width: calc(100vw - 2em);
+    bottom: 2vh; 
 }
 
 /*Put rest of mobile baseline layout here*/
@@ -94,7 +93,10 @@ header{
         left: 50vw; 
         background-color: #BE7575;
     }
+    #footer{
 
+        background-color:#BE7575;
+    }
     /*Put rest of desktop layout here*/
 }
 
