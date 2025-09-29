@@ -39,7 +39,7 @@ header{
     width: calc(50vw - 2em); 
     height: 100vh; 
 }
-
+/*If the right bottom section doesn't change then this is fine*/
     #rhodInformationNames{
         position: absolute;
         top: 160vh;   
@@ -53,8 +53,8 @@ header{
 /*Don't change*/
 #rhodInformation{
     position: absolute; 
-    top: 100vh; 
-    left: 1em; 
+    top: 160vh; 
+    left: 50vw; 
     text-align: right;
     font-size: 1.5em;
     padding: 1cm;
