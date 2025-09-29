@@ -58,7 +58,7 @@ header{
     text-align: right;
     font-size: 1.5em;
     padding: 1cm;
-    width: calc(100vw - 2em); 
+    width: 50vw; 
     z-index: 10; 
 }
 
