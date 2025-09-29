@@ -96,6 +96,7 @@ header{
     }
     #footer p {
         width: 50vw;
+        left: 50vw; 
         background-color:#BE7575;
     }
     /*Put rest of desktop layout here*/
