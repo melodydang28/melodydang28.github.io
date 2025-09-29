@@ -61,7 +61,7 @@ header{
 }
 
 #footer p{
-    font-size: 2em; 
+    font-size: 10em; 
     position: absolute; 
     text-align: left; 
     width: calc(100vw - 2em);
