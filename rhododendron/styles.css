@@ -66,6 +66,7 @@ header{
     text-align: left; 
     width: calc(100vw - 2em);
     bottom: 0.25vh; /*Was 0.5vh*/
+    
 }
 
   /*Desktop layout here*/
