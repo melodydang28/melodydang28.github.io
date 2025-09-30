@@ -61,7 +61,7 @@ header{
 }
 
 #footer p{
-    font-size: 10em; 
+    font-size: 2em; 
     position: absolute; 
     text-align: left; 
     width: calc(100vw - 2em);
@@ -103,7 +103,7 @@ header{
 }
 /*Mobile format here*/
 @media screen and (orientation: portrait){
-    
+
      #rhodPic {
         width: 160vw; 
     }
@@ -128,15 +128,16 @@ header{
         
     }
     #footer p{
-        position: relative; 
-        margin-top: 5vh; 
-        margin-bottom: 5vh; 
-        font-size: 1em; 
-        width: 100vw; 
+        position: bottom; 
+        margin-top: 0vh; 
+        margin-bottom:0vh; 
+        font-size: 0.9em; 
+        width: 160vw; 
         text-align: center; 
         background-color: #BE7575; 
         color:black; 
     }
+
 
 }
 
