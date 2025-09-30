@@ -18,9 +18,17 @@ header{
 li{
     margin: 10px; 
 }
+.grid-container{
+    display: grid; 
+    grid-template-areas: 
+    'pic pic title title'
+    'infoNames InfoNames info info'
+    'footer footer footer footer';
+    padding: 10px; 
+}
 
-#rhodPic{
-    position: absolute; 
+.flowerPic {
+    grid-area: pic; 
     width: 100vw; 
     height: 100vh; 
     background-image: url("Pacific\ Rhododendron\ 1\ -\ Walter\ Siegmund.jpeg"); 
@@ -28,12 +36,34 @@ li{
     background-position: center center; 
 }
 
+.pageTitle{
+    grid-area: title; 
+    background-color: #BE7575;
+    text-align: left; 
+    color: white; 
+}
+
+.pageTitle > h1{
+    font-size: 40px; 
+}
+
+/*
+#rhodPic{
+    position: absolute; 
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url("Pacific\ Rhododendron\ 1\ -\ Walter\ Siegmund.jpeg"); 
+    background-size: cover;
+    background-position: center center; 
+}*/
+
+/*
 #rhodTitle {
     position: absolute; 
     width: 50vw; 
     height:100vh; 
-}
-
+}*/
+/*
 #rhodTitle h1{
     position: absolute; 
     bottom: 50; 
@@ -42,8 +72,19 @@ li{
     font-size: 4.5em; 
     width: calc(50vw - 2em); 
     height: 100vh; 
+}*/
+
+.names{
+    grid-area: infoNames; 
+    background-color: #BE7575;
+    text-align: left; 
+    color: white; 
+}
+.names > h1{
+    font-size: 20px;
 }
 
+/*
     #rhodInformationNames{
         text-align: left;
         font-size: 1.5em; 
@@ -51,9 +92,18 @@ li{
         width: calc(100vw - 2em);
         z-index: 10;
     }
+*/
 
-
-#rhodInformation{
+.info{
+    grid-area:info; 
+    background-color: #BE7575;
+    text-align: left; 
+    color: white; 
+}
+.info >h1{
+    font-size:20px; 
+}
+/*#rhodInformation{
     position: absolute; 
     top: 160vh; 
     left: 50vw; 
@@ -62,17 +112,27 @@ li{
     padding: 1cm;
     width: calc(50vw - 2em); 
     z-index: 10; 
-}
+}*/
 
+.footer{
+    grid-area: footer;
+     background-color: #BE7575;
+    text-align: left; 
+    color: white; 
+}
+/*
 #footer p{
     font-size: 2em; 
     position: absolute; 
     text-align: left; 
     width: calc(100vw - 2em);
     bottom: 0.25vh; 
-}
+}*/
+
 
   /*Desktop layout here*/
+/*
+
 @media screen and (orientation: landscape){
     #rhodPic {
         width: 50vw; 
@@ -104,7 +164,7 @@ li{
         margin-left: 2vw; 
         font-size: 1.3em; 
     }
-}
+}*/
 /*Mobile format here*/
 @media screen and (orientation: portrait){
     #rhodPic {
