@@ -107,7 +107,7 @@ display: grid;
 */
   /*Desktop layout here*/
 @media screen and (orientation: landscape){
-    /*#rhodPic {
+    #rhodPic {
         width: 50vw; 
     }
     #rhodTitle{
@@ -136,7 +136,7 @@ display: grid;
         left: 50vw; 
         margin-left: 2vw; 
         font-size: 1.3em; 
-    }*/
+    }
 }
 /*Mobile format here*/
 @media screen and (orientation: portrait){
