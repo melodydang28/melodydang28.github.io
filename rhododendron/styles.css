@@ -118,15 +118,16 @@ li{
         font-size: 0.55em; 
     }
     #rhodInformationNames{
-        width: 160vw; 
+        width: 100vw; 
         position: absolute; 
         background-color: #BE7575;
         
     }
     #rhodInformation{
-        width: 160vw;  
-        margin-top: 17vh;
+        width: 100vw;  
+        margin-top: 50vh;
         position: absolute; 
+        text-align: left; 
         left:0;  
         background-color: #BE7575;
         
@@ -143,5 +144,6 @@ li{
 
 
 }
+
 
 
