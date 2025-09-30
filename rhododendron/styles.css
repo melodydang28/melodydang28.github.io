@@ -133,9 +133,9 @@ li{
     }
     #footer p{
         position: bottom; 
-        margin-left: 2vw; 
+        margin-left: 0vw; 
         font-size: 1.3em; 
-        width: 150w; 
+        width: 160w; 
         text-align: center; 
         background-color: #BE7575; 
         color:black;
