@@ -98,7 +98,8 @@ header{
     #footer p {
         width: 50vw;
         left: 50vw; 
-        
+        margin-left: 2vw; 
+        font-size: 1.3em; 
     }
 }
 /*Mobile format here*/
@@ -129,8 +130,7 @@ header{
     }
     #footer p{
         position: bottom; 
-        margin-top: 0vh; 
-        margin-bottom:0vh; 
+        margin-left: 1vw; 
         font-size: 0.9em; 
         width: 160vw; 
         text-align: center; 
