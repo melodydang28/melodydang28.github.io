@@ -49,6 +49,9 @@ display: grid;
 #gridLayout #rhodInformation p{
     grid-area: p2; 
 }
+#gridLayout #footer p{
+    grid-area: p3; 
+}
 /*#rhodPic{
     position: absolute; 
     width: 100vw; 
@@ -104,7 +107,7 @@ display: grid;
 */
   /*Desktop layout here*/
 @media screen and (orientation: landscape){
-    #rhodPic {
+    /*#rhodPic {
         width: 50vw; 
     }
     #rhodTitle{
@@ -133,11 +136,11 @@ display: grid;
         left: 50vw; 
         margin-left: 2vw; 
         font-size: 1.3em; 
-    }
+    }*/
 }
 /*Mobile format here*/
 @media screen and (orientation: portrait){
-    #rhodPic {
+   /* #rhodPic {
         width: 100vw; 
     }
     #rhodTitle{
@@ -168,7 +171,7 @@ display: grid;
         text-align: center; 
         background-color: #BE7575; 
         color:black;
-    }
+    }*/
 }
 
 
