@@ -96,6 +96,7 @@ li{
         width: 50vw;
         top: 100vh; 
         left: 50vw; 
+        margin-bottom: 2vh;
         background-color: #BE7575;
     }
     #footer p {
@@ -132,9 +133,9 @@ li{
     }
     #footer p{
         position: bottom; 
-        margin-left: 0vw; 
+        margin-left: 2vw; 
         font-size: 1.3em; 
-        width: 160vw; 
+        width: 150w; 
         text-align: center; 
         background-color: #BE7575; 
         color:black;
