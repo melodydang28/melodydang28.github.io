@@ -106,7 +106,6 @@ li{
 }
 /*Mobile format here*/
 @media screen and (orientation: portrait){
-
     #rhodPic {
         width: 100vw; 
     }
@@ -139,8 +138,6 @@ li{
         background-color: #BE7575; 
         color:black;
     }
-
-
 }
 
 
