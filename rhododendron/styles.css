@@ -105,7 +105,7 @@ header{
 /*Mobile format here*/
 @media screen and (orientation: portrait){
 
-     #rhodPic {
+    #rhodPic {
         width: 160vw; 
     }
     #rhodTitle{
@@ -114,17 +114,16 @@ header{
         font-size: 0.55em; 
     }
     #rhodInformationNames{
-        width: 100vw; 
+        width: 160vw; 
         position: absolute; 
         background-color: #BE7575;
         
     }
     #rhodInformation{
-        width: 120vw; 
-        margin-left: -50vw; 
-        margin-top: 37vh;
+        width: 160vw;  
+        margin-top: 14vh;
         position: absolute; 
-        right: 20vw; 
+        left:0;  
         background-color: #BE7575;
         
     }
