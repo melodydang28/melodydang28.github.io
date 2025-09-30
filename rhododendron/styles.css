@@ -35,10 +35,19 @@ display: grid;
     grid-area: pic; 
     position: absolute; 
     width: 100vw; 
-    height: 100vh; 
+    height: 100vh;
     background-image: url("Pacific\ Rhododendron\ 1\ -\ Walter\ Siegmund.jpeg"); 
     background-size: cover;
     background-position: center center; 
+}
+#gridLayout #rhodTitle p{
+    grid-area: title; 
+}
+#gridLayout #rhodInformationNames p{
+    grid-area: p1; 
+}
+#gridLayout #rhodInformation p{
+    grid-area: p2; 
 }
 /*#rhodPic{
     position: absolute; 
