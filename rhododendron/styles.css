@@ -96,9 +96,9 @@ header{
         background-color: #BE7575;
     }
     #footer p {
-        width: 50vw;
+        width: 50vw; 
         left: 50vw; 
-        margin-left: 2vw; 
+        margin-left: 0vw; 
         font-size: 1.3em; 
     }
 }
@@ -111,18 +111,18 @@ header{
     #rhodTitle{
         position: bottom; 
         margin-top: 65vh; 
-        font-size: 0.9em; 
+        font-size: 0.55em; 
     }
     #rhodInformationNames{
-        width: 160vw; 
+        width: 100vw; 
         position: absolute; 
         background-color: #BE7575;
         
     }
     #rhodInformation{
-        width: 160vw; 
+        width: 120vw; 
         margin-left: -50vw; 
-        margin-top: 10vh;
+        margin-top: 37vh;
         position: absolute; 
         right: 20vw; 
         background-color: #BE7575;
@@ -130,8 +130,8 @@ header{
     }
     #footer p{
         position: bottom; 
-        margin-left: 1vw; 
-        font-size: 1.8em; 
+        margin-left: 0vw; 
+        font-size: 1.3em; 
         width: 160vw; 
         text-align: center; 
         background-color: #BE7575; 
