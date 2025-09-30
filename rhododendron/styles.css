@@ -18,41 +18,8 @@ header{
 li{
     margin: 10px; 
 }
-body#gridLayout main{
-display: grid; 
-    grid-template-columns: repeat(2,auto); 
-    grid-template-rows: repeat(3,auto); 
-    grid-column-gap: 2vw; 
-    grid-row-gap: 2vh; 
-    grid-template-areas: 
-    'pic title'
-    'p1 p2'
-    'p1 p2'
-    'c1 c1'
-}
 
-#gridLayout #rhodPic{
-    grid-area: pic; 
-    position: absolute; 
-    width: 100vw; 
-    height: 100vh;
-    background-image: url("Pacific\ Rhododendron\ 1\ -\ Walter\ Siegmund.jpeg"); 
-    background-size: cover;
-    background-position: center center; 
-}
-#gridLayout #rhodTitle p{
-    grid-area: title; 
-}
-#gridLayout #rhodInformationNames p{
-    grid-area: p1; 
-}
-#gridLayout #rhodInformation p{
-    grid-area: p2; 
-}
-#gridLayout #footer p{
-    grid-area: p3; 
-}
-/*#rhodPic{
+#rhodPic{
     position: absolute; 
     width: 100vw; 
     height: 100vh; 
@@ -104,7 +71,7 @@ display: grid;
     width: calc(100vw - 2em);
     bottom: 0.25vh; 
 }
-*/
+
   /*Desktop layout here*/
 @media screen and (orientation: landscape){
     #rhodPic {
@@ -140,7 +107,7 @@ display: grid;
 }
 /*Mobile format here*/
 @media screen and (orientation: portrait){
-   /* #rhodPic {
+    #rhodPic {
         width: 100vw; 
     }
     #rhodTitle{
@@ -171,7 +138,7 @@ display: grid;
         text-align: center; 
         background-color: #BE7575; 
         color:black;
-    }*/
+    }
 }
 
 
