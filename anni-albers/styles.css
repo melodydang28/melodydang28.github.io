@@ -127,6 +127,9 @@ body#secondLayout main{
 #secondLayout #callout3{
     grid-area: c3;
 }
+#secondLayout #callout4{
+    grid-area: c4; 
+}
 #secondLayout #para12{
     grid-area: p12;
 }
