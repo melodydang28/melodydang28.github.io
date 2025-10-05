@@ -1,12 +1,12 @@
-.color-named-blue{
+ul.color-named-blue{
     color:blue; 
 }
-.color-hex-red{
+ul.color-hex-red{
     color:#FF0000;
 }
-.color-RGB-green{
+ul.color-RGB-green{
     color:rgb(0%, 100%, 0%); 
 }
-.color-HSL-bright-green{
+ul.color-HSL-bright-green{
     color:hsl(120,100%,50%);
 }
