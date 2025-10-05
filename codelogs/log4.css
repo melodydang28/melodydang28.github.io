@@ -1,3 +1,12 @@
-#li1{
+.color-named-blue{
     color:blue; 
+}
+.color-hex-red{
+    color:#FF0000;
+}
+.color-RGB-green{
+    color:rgb(0%, 100%, 0%); 
+}
+.color-HSL-bright-green{
+    color:hsl(120,100%,50%);
 }
