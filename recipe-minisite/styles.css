@@ -1,0 +1,96 @@
+/*Phone/Mobile*/
+
+ #showPic{
+   position: relative;
+   top:0; 
+   width: 100vw; 
+   height: 46vh; 
+   min-width:200px; 
+   min-height:300px; 
+   background-color:#ccc; 
+   background-image: url("1200-Moist-Banana-Bread-SpendWithPennies-2023-3.jpg");
+   background-size: cover; 
+   background-position:center center; 
+  }
+#showPic h1{
+  position: absolute;
+  top:0; 
+  font-size: 20px; 
+  color: black; 
+  bottom: 0; 
+}
+#Ingredients{
+   position: relative; 
+   display: block;
+}
+#Ingredients li{
+margin-bottom: 6px; 
+}
+#Directions li{
+  margin-bottom: 10px; 
+}
+#time{
+  margin-left: 10px; 
+}
+  #footer{
+    position: relative; 
+    display:block; 
+    text-align: left; 
+    margin-top: 40px; 
+  }
+
+/*Laptop: Responsive Design*/
+@media screen and (min-width: 768px){
+  
+  #showPic{
+   position: relative; 
+   float:right; 
+   width: 25vw; 
+   height: 41vh; 
+   min-width: 50px; 
+   min-height:300px; 
+   background-color:#ccc; 
+   background-image: url("1200-Moist-Banana-Bread-SpendWithPennies-2023-3.jpg");
+   background-size: cover; 
+   background-position:center center; 
+   overflow: auto; 
+  }
+  
+  #time p{
+    position:relative; 
+    /*display: block; */
+    text-align:right; 
+    margin-right: 26vw;
+  }
+  #footer{
+    position: relative; 
+    display:block; 
+    text-align: left; 
+    clear:both; 
+    margin-top: 80px; 
+  }
+  #Title h1{
+    position: relative;
+    margin-top: 2vh;
+    text-align: right; 
+    font-size: 20px; 
+    color: rgb(166, 105, 3); 
+    margin-right: 3vw; 
+    overflow: auto; 
+  }
+    #Ingredients {
+       position: relative;
+        display: block;
+        float: left; 
+        width:30%; 
+    }
+  #Directions {
+      position: relative; 
+      width: 35%; 
+      float: left; 
+      display: block;
+      margin-left:6vw; 
+    }
+
+}
+
