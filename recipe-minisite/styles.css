@@ -43,7 +43,7 @@ nav > ul{
 
 nav>ul>li{
   position: relative; 
-  background-ccolor: var(--nav-bkgd-color); 
+  background-color: var(--nav-bkgd-color);
   display:block; 
   margin: 1rem;
 }
