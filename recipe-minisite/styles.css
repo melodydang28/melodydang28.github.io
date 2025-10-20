@@ -23,11 +23,48 @@ nav{
 }
 
 #navBurger{
-    position: relative; 
-    display: block; 
-    font-size: 2rem; 
-    color: var(--nav-text-color); 
+  position: relative; 
+  display:block; 
+  font-size: 2rem; 
+  color: var(--nav-text-color); 
+  padding: 0.1em 0 0 0.3em; 
 }
+
+nav ul{
+  position: relative; 
+  background-color: var(--nav-bkgd-color); 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+nav > ul{
+}
+
+nav>ul>li{
+  position: relative; 
+  background-ccolor: var(--nav-bkgd-color); 
+  display:block; 
+  margin: 1rem;
+}
+
+nav>ul>li>a{
+  display: block; 
+  width: 100%; 
+  height: 100%; 
+  padding: 0.5rem; 
+}
+
+nav>ul>li>ul{
+  margin: 0 0 0 0.5rem; 
+  background-color: inherit; 
+}
+
+nav > ul> li> ul> li{
+  padding: 0.5rem 0 0.5rem 0.5rem; 
+
+}
+
 
 /*Phone/Mobile*/
 
