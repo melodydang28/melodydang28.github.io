@@ -140,7 +140,7 @@ li{
   margin-left: 2em;
 }
 
- rhodInformation.darkMode{
+ #rhodInformation.darkMode{
   background-color: darkgrey; 
 }
 
@@ -149,9 +149,9 @@ body.darkMode{
   color: rgb(74,40,6);
  color: white; 
 }
-rhodTitle.darkMode{
+#rhodTitle.darkMode{ 
   color: black; 
 }
 .gotClicked{
-  text-color: white; 
+  color: white;  
 }
