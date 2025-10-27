@@ -10,7 +10,8 @@
     background-size: cover;
     background-position: center center; 
     }
- #rhodTitle{
+ 
+    #rhodTitle{
         position: bottom; 
         font-size: 35px; 
         margin-top: 65vh; 
@@ -77,10 +78,10 @@ li{
 
 @media screen and (min-width: 768px){
     #rhodPic {
-        width: 119.1vw; 
+        width: 100vw; 
     }
     #rhodTitle{
-        width: 60vw;
+        width: 40vw;
         left: 60vw; 
         height: 20vh; 
         background-color: #ce8c8c;
@@ -91,7 +92,7 @@ li{
     }
     
     #rhodInformationNames {
-        width: 120vw;
+        width: 101.7vw;
         margin-left:-3vw; 
         position: relative; 
         display: block; 
@@ -109,12 +110,12 @@ li{
     margin-left: 8vw; 
   }
   #rhodInformationNames li{
-    font-size: 1.2em;
-    margin-left: 6.5vw; 
+    font-size: 1.2em; 
+    margin-left: 6vw; 
   }
     #rhodInformation{
        position: relative; 
-        width: 120.9vw; 
+        width: 101.7vw; 
         float: left; 
         display: block;
          margin-left:-3vw;  
