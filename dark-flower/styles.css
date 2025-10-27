@@ -10,8 +10,7 @@
     background-size: cover;
     background-position: center center; 
     }
-
-    #rhodTitle{
+ #rhodTitle{
         position: bottom; 
         font-size: 35px; 
         margin-top: 65vh; 
@@ -43,7 +42,10 @@
         
         color:black;
     }
-
+/*{
+    box-sizing: border-box; 
+    font-family: arial, sans-serif; 
+}*/
 
 body{
     padding: 10; 
@@ -89,7 +91,7 @@ li{
     }
     
     #rhodInformationNames {
-        width: 120vw;
+        width: 120.9vw;
         margin-left:-3vw; 
         position: relative; 
         display: block; 
@@ -108,10 +110,11 @@ li{
   }
   #rhodInformationNames li{
     font-size: 1.2em; 
+    margin-left: 6vw; 
   }
     #rhodInformation{
        position: relative; 
-        width: 120vw; 
+        width: 120.9vw; 
         float: left; 
         display: block;
          margin-left:-3vw;  
@@ -136,11 +139,12 @@ li{
         color:black;
   }
 }
+
 #toggleDarkMode{
   margin-left: 2em;
 }
 
- #rhodInformation.darkMode{
+ rhodInformation.darkMode{
   background-color: darkgrey; 
 }
 
@@ -149,9 +153,9 @@ body.darkMode{
   color: rgb(74,40,6);
  color: white; 
 }
-#rhodTitle.darkMode{ 
+rhodTitle.darkMode{
   color: black; 
 }
 .gotClicked{
-  color: white;  
+  color: white; 
 }
