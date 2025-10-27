@@ -153,13 +153,12 @@ li{
 }
 
 body.darkMode{
-  background-color: darkgrey; 
-  color: rgb(74,40,6);
- color: white; 
+  background-color: darkgrey;
+  color: white; 
 }
-.rhodTitle.darkMode{
+/*.rhodTitle.darkMode{
   color: black; 
-}
+}*/
 .gotClicked{
   color: white; 
 }
