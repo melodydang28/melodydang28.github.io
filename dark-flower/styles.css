@@ -114,6 +114,7 @@ li{
   }
   #rhodInformationNames li{
     font-size: 1.2em; 
+    margin-right: 3vw; 
     margin-left: 6vw; 
   }
     #rhodInformation{
@@ -154,11 +155,5 @@ li{
 
 body.darkMode{
   background-color: darkgrey;
-  color: white; 
-}
-/*.rhodTitle.darkMode{
-  color: black; 
-}*/
-.gotClicked{
   color: white; 
 }
