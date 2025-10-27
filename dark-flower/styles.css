@@ -79,9 +79,10 @@ li{
 @media screen and (min-width: 768px){
     #rhodPic {
         width: 100vw; 
+        margin-left: -1vw; 
     }
     #rhodTitle{
-        width: 40vw;
+        width: 39.7vw;
         left: 60vw; 
         height: 20vh; 
         background-color: #ce8c8c;
@@ -92,7 +93,7 @@ li{
     }
     
     #rhodInformationNames {
-        width: 101.7vw;
+        width: 100.8vw;
         margin-left:-3vw; 
         position: relative; 
         display: block; 
@@ -115,7 +116,7 @@ li{
   }
     #rhodInformation{
        position: relative; 
-        width: 101.7vw; 
+        width: 100.8vw; 
         float: left; 
         display: block;
          margin-left:-3vw;  
