@@ -136,3 +136,22 @@ li{
         color:black;
   }
 }
+#toggleDarkMode{
+  margin-left: 2em;
+}
+
+ rhodInformation.darkMode{
+  background-color: darkgrey; 
+}
+
+body.darkMode{
+  background-color: darkgrey; 
+  color: rgb(74,40,6);
+ color: white; 
+}
+rhodTitle.darkMode{
+  color: black; 
+}
+.gotClicked{
+  text-color: white; 
+}
