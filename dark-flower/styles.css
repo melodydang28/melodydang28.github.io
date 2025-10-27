@@ -129,7 +129,8 @@ li{
     margin-left: 5vw; 
   }
   #rhodInformation p{
-    margin-left: 8vw; 
+    margin-left: 8vw;
+    margin-right: 3vw;  
     font-size: 1.2em; 
   }
   
