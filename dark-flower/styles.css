@@ -79,7 +79,9 @@ li{
 @media screen and (min-width: 768px){
     #rhodPic {
         width: 100vw; 
-        margin-left: -1vw; 
+        height: 101vh; 
+        margin-left: -1vw;
+        margin-top: -1vh;  
     }
     #rhodTitle{
         width: 39.7vw;
