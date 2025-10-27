@@ -1,0 +1,138 @@
+/*Mobile format*/
+ #rhodPic {
+    position: absolute; 
+    width: 100vw; 
+    height: 100vh; 
+    min-width:200px; 
+   min-height:300px; 
+ 
+    background-image: url("Pacific\ Rhododendron\ 1\ -\ Walter\ Siegmund.jpeg");
+    background-size: cover;
+    background-position: center center; 
+    }
+
+    #rhodTitle{
+        position: bottom; 
+        font-size: 35px; 
+        margin-top: 65vh; 
+        font-size: 2em; 
+        color: white; 
+        left: 1em; 
+    }
+  #rhodTitle h1{
+    font-size: 35px; 
+  }
+    #rhodInformationNames{
+        position: relative; 
+        display: block; 
+        left: 1em; 
+    }
+
+    #rhodInformation{
+       position: relative; 
+        text-align: left;
+        left: 1em; 
+    }
+    #footer p{
+        position: relative; 
+        bottom: 0.25vh; 
+        margin-left: 0vw; 
+        font-size: 1em; 
+        width: 190w; 
+        text-align: center; 
+        
+        color:black;
+    }
+
+
+body{
+    padding: 10; 
+    margin: 0; 
+}
+
+header{
+    width: 100vw; 
+    height: 100vh; 
+}
+
+li{
+    margin: 10px; 
+}
+
+
+
+
+
+
+#rhodTitle {
+    position: absolute; 
+    width: 50vw; 
+    height:100vh; 
+}
+
+
+  /*Desktop layout here*/
+
+@media screen and (min-width: 768px){
+    #rhodPic {
+        width: 120vw; 
+    }
+    #rhodTitle{
+        width: 60vw;
+        left: 60vw; 
+        height: 20vh; 
+        background-color: #ce8c8c;
+    }
+    #rhodTitle h1{
+        width: 40vw; 
+       margin-left: 2vw; 
+    }
+    
+    #rhodInformationNames {
+        width: 120vw;
+        margin-left:-3vw; 
+        position: relative; 
+        display: block; 
+        float: left; 
+        /*width: 50vw;*/
+      
+        background-color: #BE7575; 
+    }
+  
+  #rhodInformationNames h1 {
+      margin-left: 5vw; 
+  }
+  #rhodInformationNames p{
+    font-size: 1.2em; 
+    margin-left: 8vw; 
+  }
+  #rhodInformationNames li{
+    font-size: 1.2em; 
+  }
+    #rhodInformation{
+       position: relative; 
+        width: 120vw; 
+        float: left; 
+        display: block;
+         margin-left:-3vw;  
+        background-color: #BE7575;
+    }
+  #rhodInformation h1{
+    margin-left: 5vw; 
+  }
+  #rhodInformation p{
+    margin-left: 8vw; 
+    font-size: 1.2em; 
+  }
+  
+ #footer p{
+   position: bottom; 
+        /*bottom: 0vh; */
+        margin-left: 0vw; 
+        font-size: 1em; 
+        height: 20vh; 
+        width: 20vw; 
+        text-align: left; 
+        color:black;
+  }
+}
