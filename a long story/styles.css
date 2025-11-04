@@ -1,0 +1,156 @@
+#pic{
+  position: fixed; 
+  width: 100vw;
+  height: 120vh;
+  margin-top:-14vh; 
+  background-image:url("https://wallpapers.com/images/hd/old-paper-texture-2000-x-1315-background-1t9f20ypvz1cu9n2.jpg");
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: repeat-y;
+  background-attachment: local; 
+}
+
+#Intro{
+  position: relative; 
+   text-align: right; 
+    margin-bottom: 10vw; 
+    margin-top: 10vw; 
+}
+#Intro h1{
+  font-size: 3em; 
+  margin-right: 1.5vw;  
+}
+
+#Author{
+  position: relative; 
+
+}
+#Author h1 {
+  font-size: 1.5em; 
+  margin-left: 2vw; 
+}
+.introPic{
+  position: relative; 
+  width: 30vw; 
+  height: 80vh; 
+  margin-top: 10vh; 
+  margin-left: 35vw; 
+  margin-bottom: -60vh; 
+  background-size: cover; 
+  background-position: center center; 
+
+}
+
+#page1 {
+  position: relative; 
+}
+
+#page1 p{
+  font-size: 1.6em; 
+  margin-top: 70vh; 
+  margin-left: 2vw; 
+}
+
+.p2pic{
+  position: relative; 
+  width: 30vw; 
+  height: 70vh; 
+  margin-top: 10vh; 
+  margin-left: 35vw; 
+  margin-bottom: -60vh; 
+  background-size: cover; 
+  background-position: center center; 
+}
+#page2{
+  position: relative; 
+}
+
+#p2first{
+  font-size: 1.6em; 
+  margin-top: 70vh; 
+  margin-left: 2vw;
+}
+#p2second{
+  font-size: 1.6em;
+  margin-left: 2vw;
+}
+
+.p3pic{
+  position: relative; 
+  width: 30vw; 
+  height: 70vh; 
+  margin-top: 10vh; 
+  margin-left: 35vw; 
+  margin-bottom: -60vh; 
+  background-size: cover; 
+  background-position: center center; 
+
+}
+
+#page3{
+  position: relative; 
+}
+#p3first{
+  font-size: 1.6em; 
+  margin-top: 70vh; 
+  margin-left: 2vw;
+}
+
+#p3second{
+  font-size: 1.6em; 
+  margin-top: 10vh; 
+  margin-left: 2vw;
+}
+
+.p4pic{
+  position: relative; 
+  width: 30vw; 
+  height: 70vh; 
+  margin-top: 10vh; 
+  margin-left: 35vw; 
+  margin-bottom: -60vh; 
+  background-size: cover; 
+  background-position: center center; 
+}
+
+#page4{
+  position: relative; 
+}
+
+
+#p4first{
+  font-size: 1.5em; 
+  margin-top: 70vh; 
+  margin-left: 2vw;
+}
+
+#p4second{
+   font-size: 1.6em; 
+  margin-top: 10vh; 
+  margin-left: 2vw;
+}
+.p5pic{
+  position: relative; 
+  width: 30vw; 
+  height: 70vh; 
+  margin-top: 10vh; 
+  margin-left: 35vw; 
+  margin-bottom: -60vh; 
+  background-size: cover; 
+  background-position: center center; 
+}
+#page5{
+  position: relative; 
+}
+
+#p5first{
+    font-size: 1.5em; 
+  margin-top: 70vh; 
+  margin-left: 2vw;
+}
+
+#p5second{
+     font-size: 1.6em; 
+  margin-top: 10vh; 
+  margin-left: 2vw;
+}
