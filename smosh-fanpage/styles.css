@@ -94,18 +94,18 @@ body{
   background-color: rgb(44, 43, 51); 
 }
 
-body#home main{
+body#home#cast main{
   display: grid; 
   grid-template-columns: repeat(3, auto); 
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
     '. title .';
 }
-#home #titleRow{
+#home#cast #titleRow #castTitleRow{
   grid-area: title; 
   margin-left: 45%; 
 }
-#home #titleRow #header1{
+#home#cast #titleRow #castTitleRow #header1{
   font-size: 3.2em; 
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif; 
