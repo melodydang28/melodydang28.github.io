@@ -34,7 +34,7 @@ nav{
   font-size: 3rem; 
   color: var(--nav-text-color); 
   padding: 0.1em 0 0 0.3em;
-  max-height: 4rem; 
+  max-height: 3rem; 
 }
 
 nav ul{
@@ -87,25 +87,23 @@ nav a {
 nav.li > hover a{
   color: var(--nav-hover-text-color); 
 }
-nav.li > hover{
-  background-color: var(--nav-hover-bkgd-color); 
-}
+
 body{
   background-color: rgb(44, 43, 51); 
 }
 
-body#home#cast main{
+body#home main{
   display: grid; 
   grid-template-columns: repeat(3, auto); 
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
     '. title .';
 }
-#home#cast #titleRow #castTitleRow{
+#home #titleRow{
   grid-area: title; 
   margin-left: 45%; 
 }
-#home#cast #titleRow #castTitleRow #header1{
+#home #titleRow #header1{
   font-size: 3.2em; 
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif; 
