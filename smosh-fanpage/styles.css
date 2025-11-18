@@ -34,7 +34,7 @@ nav{
   font-size: 3rem; 
   color: var(--nav-text-color); 
   padding: 0.1em 0 0 0.3em;
-  max-height: 3rem; 
+  max-height: 4rem; 
 }
 
 nav ul{
