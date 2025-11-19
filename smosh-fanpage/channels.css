@@ -103,7 +103,7 @@ body#channels main{
 }
 #channels #channelsTitleRow{
   grid-area: title; 
-  margin-left: 45%; 
+  margin-left: 30%; 
 }
 #channels #channelsTitleRow #header1{
   font-size: 3.2em; 
