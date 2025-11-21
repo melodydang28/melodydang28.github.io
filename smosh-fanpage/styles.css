@@ -97,7 +97,26 @@ body#home main{
   grid-template-columns: repeat(3, auto); 
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
-    '. title .';
+    '. title .'
+    '. about .'
+    '. . .'
+    '. history .';
+}
+#home #aboutRow{
+  grid-area: about; 
+}
+#home #aboutRow #aboutHeader{
+  font-size: 1.8em; 
+  color: var(--nav-bkgd-color);  
+  font-family: 'franchise', sans-serif; 
+}
+#home #historyRow{
+  grid-area: history; 
+}
+#home #historyRow #historyHeader{
+  font-size: 1.8em; 
+  color: var(--nav-bkgd-color);  
+  font-family: 'franchise', sans-serif; 
 }
 #home #titleRow{
   grid-area: title; 
