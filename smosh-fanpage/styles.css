@@ -110,6 +110,11 @@ body#home main{
   color: var(--nav-bkgd-color);  
   font-family: 'franchise', sans-serif; 
 }
+#home #aboutRow #aboutPara1{
+  font-size: 1.3em;
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif; 
+}
 #home #historyRow{
   grid-area: history; 
 }
@@ -117,6 +122,11 @@ body#home main{
   font-size: 1.8em; 
   color: var(--nav-bkgd-color);  
   font-family: 'franchise', sans-serif; 
+}
+#home #historyRow #historyPara1{
+  font-size: 1.1em;
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif;
 }
 #home #titleRow{
   grid-area: title; 
