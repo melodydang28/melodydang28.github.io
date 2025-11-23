@@ -109,11 +109,14 @@ body#home main{
   font-size: 1.8em; 
   color: var(--nav-bkgd-color);  
   font-family: 'franchise', sans-serif; 
+  margin-left: 20%; 
 }
 #home #aboutRow #aboutPara1{
   font-size: 1.3em;
   color: rgb(85, 112, 213); 
-  font-family: 'franchise', sans-serif; 
+  font-family: 'franchise', sans-serif;
+  margin-left: 21%; 
+  margin-right: 20%;  
 }
 #home #historyRow{
   grid-area: history; 
@@ -122,21 +125,27 @@ body#home main{
   font-size: 1.8em; 
   color: var(--nav-bkgd-color);  
   font-family: 'franchise', sans-serif; 
+  margin-left: 20%; 
 }
 .achievmentsList{
   font-size: 1.3em;
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif;
+  margin-left: 21%; 
+  margin-right: 20%; 
 }
 #home #historyRow #worldRecords{
   font-size: 1.8em; 
   color: var(--nav-bkgd-color);  
   font-family: 'franchise', sans-serif; 
+  margin-left: 20%;
 }
 .worldRecordsList{
   font-size: 1.3em;
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif;
+  margin-left: 21%; 
+  margin-right: 20%;
 }
 #home #titleRow{
   grid-area: title; 
