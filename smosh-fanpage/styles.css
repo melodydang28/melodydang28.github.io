@@ -147,6 +147,9 @@ body#home main{
   margin-left: 21%; 
   margin-right: 20%;
 }
+.worldRecordsList li{
+  margin-bottom: 4%;
+}
 #home #titleRow{
   grid-area: title; 
   margin-left: 45%; 
