@@ -123,8 +123,18 @@ body#home main{
   color: var(--nav-bkgd-color);  
   font-family: 'franchise', sans-serif; 
 }
-#home #historyRow #historyPara1.achievmentsList{
-  font-size: 1.1em;
+.achievmentsList{
+  font-size: 1.3em;
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif;
+}
+#home #historyRow #worldRecords{
+  font-size: 1.8em; 
+  color: var(--nav-bkgd-color);  
+  font-family: 'franchise', sans-serif; 
+}
+.worldRecordsList{
+  font-size: 1.3em;
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif;
 }
