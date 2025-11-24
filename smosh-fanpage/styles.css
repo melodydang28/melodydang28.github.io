@@ -118,6 +118,22 @@ body#home main{
   margin-left: 21%; 
   margin-right: 20%;  
 }
+#home #aboutRow #aboutPara2{
+     font-size: 1.3em;
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif;
+  margin-top: 4%; 
+  margin-left: 21%; 
+  margin-right: 20%;
+}
+#home #aboutRow #aboutPara3{
+     font-size: 1.3em;
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif;
+  margin-top: 4%; 
+  margin-left: 21%; 
+  margin-right: 20%;
+}
 #home #historyRow{
   grid-area: history; 
 }
