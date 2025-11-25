@@ -119,8 +119,8 @@ body#home main{
 #home #showPicRecords{
   grid-area: recordPic; 
     position: relative; 
-    margin-left: 22%; 
-   width: 52vw; 
+    margin-left: 30%; 
+   width: 35vw; 
    height: 70vh; 
    background-image: url("We_Broke_A_REAL_World_Record_YTCP_2.webp");
    background-size: auto; 
