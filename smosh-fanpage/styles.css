@@ -107,13 +107,13 @@ body#home main{
   grid-area: about; 
 }
 #home #showPic{
-     grid-area: pic; 
+      grid-area: pic; 
     position: relative; 
     margin-left: 20%; 
-   width: 55vw; 
-   height: 80vh; 
+   width: 60vw; 
+   height: 70vh; 
    background-image: url("the-smosh-family-v0-9j4p9uamztxc1.webp");
-   background-size: cover; 
+   background-size: auto; 
    background-position:center center;
 }
 #home #aboutRow #aboutHeader{
