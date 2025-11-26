@@ -124,6 +124,11 @@ body#cast main{
   grid-area: aPic; 
   margin-left: 30%; 
 }
+#cast #Angela #angName{
+  font-size: 1.5em; 
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif; 
+}
 #cast #shaynePic{
   grid-area: sPic; 
   margin-left: 5%; 
