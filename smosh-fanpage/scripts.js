@@ -6,9 +6,3 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 });
-/*Doesn't work rn*/
-/*document.addEventListener("DOMContentLoaded", function(){
-  document.querySelector("#navBurger").addEventListener("hover", function(e){
-      document.querySelector("nav").classList.toggle("hovered"); 
-    }); 
-}); */
