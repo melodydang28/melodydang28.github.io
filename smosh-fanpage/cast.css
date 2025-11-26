@@ -99,7 +99,17 @@ body#cast main{
   grid-template-columns: repeat(3, auto); 
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
-    '. title .';
+    '. title .'
+    'aPic sPic Apic'
+    'angela shayne amanda'
+    'iPic anPic cPic'
+    'ian anthony courtney'
+    'kPic dPic oPic'
+    'keith damien olivia'
+    'chPic arPic tPic'
+    'chanse arasha trevor'
+    'nPic tommPic spPic'
+    'noah tommy spencer';
 }
 #cast #castTitleRow{
   grid-area: title; 
@@ -109,4 +119,64 @@ body#cast main{
   font-size: 3.2em; 
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif; 
+}
+#cast #angPic{
+  grid-area: aPic; 
+  margin-left: 30%; 
+}
+#cast #shaynePic{
+  grid-area: sPic; 
+  margin-left: 5%; 
+}
+#cast #amandaPic{
+  grid-area: APic; 
+  margin-left: 5%; 
+}
+#cast #ianPic{
+  grid-area: iPic; 
+  margin-left: 30%; 
+}
+#cast #anthPic{
+  grid-area: anPic; 
+  margin-left: 5%; 
+}
+#cast #courtPic{
+  grid-area: cPic; 
+  margin-left: 5%; 
+}
+#cast #keithPic{
+  grid-area: kPic; 
+  margin-left: 30%; 
+}
+#cast #damienPic{
+  grid-area: dPic; 
+  margin-left: 5%; 
+}
+#cast #oliviaPic{
+  grid-area: oPic; 
+  margin-left: 5%; 
+}
+#cast #chansePic{
+  grid-area: chPic; 
+  margin-left: 30%; 
+}
+#cast #arashPic{
+  grid-area: arPic; 
+  margin-left: 5%; 
+}
+#cast #trevPic{
+  grid-area: tPic; 
+  margin-left: 5%; 
+}
+#cast #noahPic{
+  grid-area: nPic; 
+  margin-left: 30%; 
+}
+#cast #tomPic{
+  grid-area: tommPic; 
+  margin-left: 5%; 
+}
+#cast #spencPic{
+  grid-area: spPic; 
+  margin-left: 5%; 
 }
