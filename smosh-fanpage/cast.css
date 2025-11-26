@@ -113,7 +113,7 @@ body#cast main{
 }
 #cast #castTitleRow{
   grid-area: title; 
-  margin-left: 45%; 
+  margin-left: 30%; 
 }
 #cast #castTitleRow #header1{
   font-size: 3.2em; 
