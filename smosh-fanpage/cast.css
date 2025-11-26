@@ -126,60 +126,125 @@ body#cast main{
 }
 #cast #Angela #angName{
   font-size: 1.5em; 
-  color: rgb(85, 112, 213); 
+  color: var(--nav-bkgd-color); 
   font-family: 'franchise', sans-serif; 
 }
 #cast #shaynePic{
   grid-area: sPic; 
   margin-left: 5%; 
 }
+#cast #Shayne #shayneName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+}
 #cast #amandaPic{
   grid-area: APic; 
   margin-left: 5%; 
+}
+#cast #Amanda #amandaName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
 }
 #cast #ianPic{
   grid-area: iPic; 
   margin-left: 30%; 
 }
+#cast #Ian #ianName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+}
 #cast #anthPic{
   grid-area: anPic; 
   margin-left: 5%; 
+}
+#cast #Anthony #anthonyName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
 }
 #cast #courtPic{
   grid-area: cPic; 
   margin-left: 5%; 
 }
+#cast #Courtney #courtneyName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+}
 #cast #keithPic{
   grid-area: kPic; 
   margin-left: 30%; 
+}
+#cast #Keith #keithName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
 }
 #cast #damienPic{
   grid-area: dPic; 
   margin-left: 5%; 
 }
+#cast #Damien #damienName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+}
 #cast #oliviaPic{
   grid-area: oPic; 
   margin-left: 5%; 
+}
+#cast #Chanse #chanseName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
 }
 #cast #chansePic{
   grid-area: chPic; 
   margin-left: 30%; 
 }
+#cast #Arasha #arashaName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+}
 #cast #arashPic{
   grid-area: arPic; 
   margin-left: 5%; 
+}
+#cast #Trevor #trevorName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
 }
 #cast #trevPic{
   grid-area: tPic; 
   margin-left: 5%; 
 }
+#cast #Noah #noahName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+}
 #cast #noahPic{
   grid-area: nPic; 
   margin-left: 30%; 
 }
+#cast #Tommy #tommyName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+}
 #cast #tomPic{
   grid-area: tommPic; 
   margin-left: 5%; 
+}
+#cast #Spencer #spencerName{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
 }
 #cast #spencPic{
   grid-area: spPic; 
