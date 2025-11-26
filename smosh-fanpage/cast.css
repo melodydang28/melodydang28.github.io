@@ -192,15 +192,16 @@ body#cast main{
   color: var(--nav-bkgd-color); 
   font-family: 'franchise', sans-serif; 
 }
+#cast #oliviaPic{
+  grid-area: oPic; 
+  margin-left: 5%; 
+}
 #cast #Olivia #oliviaName{
   font-size: 1.5em; 
   color: var(--nav-bkgd-color); 
   font-family: 'franchise', sans-serif; 
 }
-#cast #oliviaPic{
-  grid-area: oPic; 
-  margin-left: 5%; 
-}
+
 #cast #Chanse #chanseName{
   font-size: 1.5em; 
   color: var(--nav-bkgd-color); 
