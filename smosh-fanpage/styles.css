@@ -1,5 +1,5 @@
 /*CSS for responsive menu*/
-
+/*Laptop*/
 /*Defining variables*/
 :root{
     --nav-height: 4rem; 
@@ -115,6 +115,8 @@ body#home main{
    background-image: url("the-smosh-family-v0-9j4p9uamztxc1.webp");
    background-size: auto; 
    background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
 }
 #home #showPicRecords{
   grid-area: recordPic; 
@@ -125,6 +127,8 @@ body#home main{
    background-image: url("We_Broke_A_REAL_World_Record_YTCP_2.webp");
    background-size: auto; 
    background-position:center center;
+   animation: fadeIn2 linear;
+   animation-timeline: view();  
 }
 #home #aboutRow #aboutHeader{
   font-size: 1.8em; 
@@ -193,4 +197,12 @@ body#home main{
   font-size: 3.2em; 
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif; 
+}
+@keyframes fadeIn{
+  from {scale: 1.5; opacity: 1;}
+  to {scale: 0.4; opacity: 1;}
+}
+@keyframes fadeIn2{
+  from {scale: 0.6; opacity: 1;}
+  to {scale: 1; opacity: 1;}
 }
