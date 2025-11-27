@@ -107,10 +107,25 @@ body{
   font-family: 'franchise', sans-serif; 
   margin-left: 30%; 
 }
+.angPic{
+  position: relative; 
+   margin-left: 10%; 
+   width: 20vw; 
+   height: 20vh; 
+  background-image: url("angela_smosh.webp");
+   background-size: auto; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
 #cast #castTitleRow #header1{
   font-size: 3.2em; 
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif; 
   text-align: center; 
+}
+@keyframes fadeIn{
+  from {scale: 1.5; opacity: 1;}
+  to {scale: 0.4; opacity: 1;}
 }
 
