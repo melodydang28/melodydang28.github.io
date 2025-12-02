@@ -117,7 +117,7 @@ body{
    background-image: url("angela_smosh.webp");
    background-size: cover; 
    background-position:center center;
-   animation: fadeIn linear;
+   animation: fadeOut linear;
    animation-timeline: view();  
 }
 
@@ -130,7 +130,7 @@ body{
    background-image: url("Shayne-Topp.jpg");
    background-size: cover; 
    background-position:center center;
-   animation: fadeIn linear;
+   animation: fadeOut linear;
    animation-timeline: view();  
 }
 
@@ -144,7 +144,7 @@ body{
    background-image: url("amanda.jpg");
    background-size: cover; 
    background-position:center center;
-   animation: fadeIn linear;
+   animation: fadeOut linear;
    animation-timeline: view();  
 }
 .grid-item #ianPic{
@@ -157,7 +157,7 @@ body{
    background-image: url("ian.jpg");
    background-size: cover; 
    background-position:center center;
-   animation: fadeIn2 linear;
+   animation: fadeIn linear;
    animation-timeline: view();  
 }
 
@@ -171,7 +171,7 @@ body{
    background-image: url("anthony.webp");
    background-size: cover; 
    background-position:center center;
-   animation: fadeIn2 linear;
+   animation: fadeIn linear;
    animation-timeline: view();  
 }
 
@@ -185,7 +185,7 @@ body{
    background-image: url("courtney.jpg");
    background-size: cover; 
    background-position:center center;
-   animation: fadeIn2 linear;
+   animation: fadeIn linear;
    animation-timeline: view();  
 }
 #cast #castTitleRow #header1{
@@ -205,16 +205,16 @@ body{
    background-image: url("keith.jpg");
    background-size: cover; 
    background-position:center center;
-   animation: fadeIn2 linear;
+   animation: fadeIn linear;
    animation-timeline: view();  
 }
-@keyframes fadeIn{
+@keyframes fadeOut{
   from {scale: 1.8; opacity: 1;}
   to {scale: 0.3; opacity: 1;}
 }
 
-@keyframes fadeIn2{
+@keyframes fadeIn{
   from {scale: 0.3; opacity: 1;}
-  to {scale: 1.5; opacity: 1;}
+  to {scale: 1; opacity: 1;}
 }
 
