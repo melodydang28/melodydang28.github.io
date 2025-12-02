@@ -215,5 +215,5 @@ body{
 
 @keyframes fadeIn{
   from {scale: 0.3; opacity: 1;}
-  to {scale: 1; opacity: 1;}
+  to {scale: 1.2; opacity: 1;}
 }
