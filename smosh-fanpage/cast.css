@@ -147,6 +147,19 @@ body{
    animation: fadeIn linear;
    animation-timeline: view();  
 }
+.grid-item #ianPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -20%; 
+  object-fit: cover; 
+   max-width: 20vw; 
+   height: 40vh; 
+   background-image: url("ian.jpg");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
 
 #cast #castTitleRow #header1{
   font-size: 3.2em; 
