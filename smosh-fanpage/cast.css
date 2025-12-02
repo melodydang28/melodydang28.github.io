@@ -135,10 +135,11 @@ body{
 }
 
 .grid-item #amandaPic{
-  position: relative; 
+   position: relative; 
   justify-items: center; 
   margin-left: -20%; 
-   width: 20vw; 
+  object-fit: cover; 
+   max-width: 20vw; 
    height: 40vh; 
    background-image: url("amanda.jpg");
    background-size: cover; 
