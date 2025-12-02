@@ -139,7 +139,7 @@ body{
   justify-items: center; 
   margin-left: -20%; 
   object-fit: cover; 
-   max-width: 20vw; 
+   max-width: 18vw; 
    height: 40vh; 
    background-image: url("amanda.jpg");
    background-size: cover; 
@@ -180,12 +180,12 @@ body{
   justify-items: center; 
   margin-left: -20%; 
   object-fit: cover; 
-   max-width: 20vw; 
+   max-width: 18vw; 
    height: 40vh; 
    background-image: url("courtney.jpg");
    background-size: cover; 
    background-position:center center;
-   animation: fadeIn linear;
+   animation: fadeIn2 linear;
    animation-timeline: view();  
 }
 #cast #castTitleRow #header1{
