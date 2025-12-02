@@ -194,13 +194,27 @@ body{
   font-family: 'franchise', sans-serif; 
   text-align: center; 
 }
+
+.grid-item #keithPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -20%; 
+  object-fit: cover; 
+   max-width: 20vw; 
+   height: 40vh; 
+   background-image: url("keith.jpg");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn2 linear;
+   animation-timeline: view();  
+}
 @keyframes fadeIn{
-  from {scale: 1.2; opacity: 1;}
-  to {scale: 0.5; opacity: 1;}
+  from {scale: 1.8; opacity: 1;}
+  to {scale: 0.3; opacity: 1;}
 }
 
 @keyframes fadeIn2{
-  from {scale: 0.5; opacity: 1;}
-  to {scale: 1.2; opacity: 1;}
+  from {scale: 0.3; opacity: 1;}
+  to {scale: 1.5; opacity: 1;}
 }
 
