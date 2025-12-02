@@ -208,6 +208,21 @@ body{
    animation: fadeIn linear;
    animation-timeline: view();  
 }
+
+.grid-item #damienPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -20%; 
+  object-fit: cover; 
+   max-width: 20vw; 
+   height: 40vh; 
+   background-image: url("damien.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
 @keyframes fadeOut{
   from {scale: 1.8; opacity: 1;}
   to {scale: 0.3; opacity: 1;}
