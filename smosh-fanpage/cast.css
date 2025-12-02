@@ -124,10 +124,23 @@ body{
 .grid-item #shaynePic{
   position: relative; 
   justify-items: center; 
-  margin-left: -13%; 
+  margin-left: -20%; 
    width: 20vw; 
    height: 40vh; 
    background-image: url("Shayne-Topp.jpg");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
+.grid-item #amandaPic{
+  position: relative; 
+  justify-items: center; 
+  margin-left: -20%; 
+   width: 20vw; 
+   height: 40vh; 
+   background-image: url("amanda.jpg");
    background-size: cover; 
    background-position:center center;
    animation: fadeIn linear;
