@@ -110,14 +110,15 @@ body{
 
 .grid-item #angPic{
   position: relative; 
-   margin-left: 10%; 
+  justify-items: center; 
+  margin-left: -13%; 
    width: 20vw; 
-   height: 20vh; 
+   height: 40vh; 
    background-image: url("angela_smosh.webp");
-   background-size: auto; 
+   background-size: cover; 
    background-position:center center;
    animation: fadeIn linear;
-   animation-timeline: view();   
+   animation-timeline: view();  
 }
 
 #cast #castTitleRow #header1{
