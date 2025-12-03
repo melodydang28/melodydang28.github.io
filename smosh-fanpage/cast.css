@@ -294,12 +294,26 @@ body{
    animation-timeline: view();  
 }
 
-.grid-item #tomPic{
+.grid-item #spencPic{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
   object-fit: cover; 
    max-width: 20vw; 
+   height: 40vh; 
+   background-image: url("spencer.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeInLast linear;
+   animation-timeline: view();  
+}
+
+.grid-item #tomPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -20%; 
+  object-fit: cover; 
+   max-width: 18vw; 
    height: 40vh; 
    background-image: url("tommy.webp");
    background-size: cover; 
