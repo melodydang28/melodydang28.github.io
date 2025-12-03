@@ -94,13 +94,7 @@ body{
   background-color: rgb(44, 43, 51); 
 }
 
-body#channels main{
-  display: grid; 
-  grid-template-columns: repeat(3, auto); 
-  grid-template-rows: repeat(6, auto); 
-  grid-template-areas: 
-    '. title .';
-}
+
 #channels #channelsTitleRow{
   grid-area: title; 
   margin-left: 30%;  
@@ -110,3 +104,19 @@ body#channels main{
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif; 
 }
+
+body#channels main{
+  display: grid; 
+  grid-template-columns: repeat(3, auto); 
+  grid-template-rows: repeat(6, auto); 
+  grid-template-areas: 
+    '. title .'
+    'mainP . gamesP'
+    'main . games'
+    'pitP . castP'
+    'pit . cast'
+    '. alikeP .'
+    '. alike .';
+} 
+
+
