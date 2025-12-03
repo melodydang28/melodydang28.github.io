@@ -115,5 +115,6 @@ body{
   color: var(--nav-bkgd-color); 
   font-family: 'franchise', sans-serif; 
   margin-left: 30%; 
+  align-items: center;
 }
 
