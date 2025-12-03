@@ -112,6 +112,7 @@ body{
 .grid-item #angPic{
   position: relative; 
   justify-items: center; 
+    margin-top: 30%; 
   margin-left: -13%; 
    width: 20vw; 
    height: 40vh; 
@@ -125,6 +126,7 @@ body{
 .grid-item #shaynePic{
   position: relative; 
   justify-items: center; 
+    margin-top: 30%; 
   margin-left: -20%; 
    width: 20vw; 
    height: 40vh; 
@@ -138,6 +140,7 @@ body{
 .grid-item #amandaPic{
    position: relative; 
   justify-items: center; 
+    margin-top: 30%; 
   margin-left: -20%; 
   object-fit: cover; 
    max-width: 18vw; 
@@ -152,6 +155,7 @@ body{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 20vw; 
    height: 40vh; 
@@ -166,6 +170,7 @@ body{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 20vw; 
    height: 40vh; 
@@ -180,6 +185,7 @@ body{
  position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 18vw; 
    height: 40vh; 
@@ -200,6 +206,7 @@ body{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 20vw; 
    height: 40vh; 
@@ -214,6 +221,7 @@ body{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 20vw; 
    height: 40vh; 
@@ -228,6 +236,7 @@ body{
  position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 18vw; 
    height: 40vh; 
@@ -242,6 +251,7 @@ body{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 20vw; 
    height: 40vh; 
@@ -255,7 +265,8 @@ body{
 .grid-item #arashPic{
    position: relative; 
   justify-items: center; 
-  margin-left: -20%; 
+  margin-left: -20%;
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 20vw; 
    height: 40vh; 
@@ -270,6 +281,7 @@ body{
  position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 18vw; 
    height: 40vh; 
@@ -284,6 +296,7 @@ body{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 20vw; 
    height: 40vh; 
@@ -298,6 +311,7 @@ body{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 20vw; 
    height: 40vh; 
@@ -312,6 +326,7 @@ body{
    position: relative; 
   justify-items: center; 
   margin-left: -20%; 
+  margin-top: 30%; 
   object-fit: cover; 
    max-width: 18vw; 
    height: 40vh; 
@@ -333,6 +348,6 @@ body{
 }
 
 @keyframes fadeInLast{
-  from {scale: 0.7; opacity: 1;}
-  to {scale: 1.3; opacity: 1;}
+  from {scale: 0.9; opacity: 1;}
+  to {scale: 1.1; opacity: 1;}
 }
