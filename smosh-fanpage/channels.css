@@ -163,10 +163,12 @@ body{
 .grid-item #castPara{
   margin-left: -20%;
   margin-right: 25%; 
+    margin-bottom: 30%; 
 }
 .grid-item #alikePara{
   margin-left: -20%;
   margin-right: 25%; 
+  margin-bottom: 30%; 
 }
 
 .grid-item #gamesPic{
