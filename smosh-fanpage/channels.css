@@ -175,6 +175,9 @@ body{
   margin-bottom: 30%; 
     font-size: 0.93em; 
 }
+.grid-item #castLink{
+ margin-top: 20%;
+}
 
 .grid-item #gamesPic{
   position: relative; 
