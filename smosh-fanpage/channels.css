@@ -150,25 +150,30 @@ body{
 .grid-item #mainPara{
     margin-left: -20%;
   margin-right: 25%; 
+    font-size: 0.93em; 
 }
 
 .grid-item #gamesPara{
   margin-left: -20%;
   margin-right: 25%; 
+    font-size: 0.93em; 
 }
 .grid-item #pitPara{
   margin-left: -20%;
   margin-right: 25%; 
+    font-size: 0.93em; 
 }
 .grid-item #castPara{
   margin-left: -20%;
   margin-right: 25%; 
-    margin-bottom: 30%; 
+  margin-bottom: 30%; 
+    font-size: 0.93em; 
 }
 .grid-item #alikePara{
   margin-left: -20%;
   margin-right: 25%; 
   margin-bottom: 30%; 
+    font-size: 0.93em; 
 }
 
 .grid-item #gamesPic{
