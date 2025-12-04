@@ -152,6 +152,10 @@ body{
   margin-right: 25%; 
 }
 
+.grid-item #gamesPara{
+  margin-left: -20%;
+  margin-right: 25%; 
+}
 
 .grid-item #gamesPic{
   position: relative; 
