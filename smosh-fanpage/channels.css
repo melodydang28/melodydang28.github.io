@@ -97,8 +97,9 @@ body{
 
 #channels #channelsTitleRow{
   grid-area: title; 
-  margin-left: 30%;  
+  margin-left: 40%; 
 }
+
 #channels #channelsTitleRow #header1{
   font-size: 3.2em; 
   color: rgb(85, 112, 213); 
