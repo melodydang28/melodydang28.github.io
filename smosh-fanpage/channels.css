@@ -147,6 +147,11 @@ body{
    background-position:center center;
 }
 
+.grid-item #mainPara{
+    margin-left: -20%;
+  margin-right: 25%; 
+}
+
 
 .grid-item #gamesPic{
   position: relative; 
