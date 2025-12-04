@@ -130,7 +130,33 @@ body{
    background-size: cover; 
    background-position:center center;
 }
+
 .grid-item #smoshMainTitle{
   margin-left: 10%;
+}
+
+.grid-item #mainPic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("smosh main.webp");
+   background-size: cover; 
+   background-position:center center;
+}
+
+
+.grid-item #gamesPic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("smosh games.png");
+   background-size: cover; 
+   background-position:center center;
 }
 
