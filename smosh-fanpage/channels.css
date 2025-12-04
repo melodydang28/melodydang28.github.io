@@ -184,3 +184,14 @@ body{
    background-position:center center;
 }
 
+.grid-item #alikePic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("alike.webp");
+   background-size: cover; 
+   background-position:center center;
+}
