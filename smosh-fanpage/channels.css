@@ -156,6 +156,18 @@ body{
   margin-left: -20%;
   margin-right: 25%; 
 }
+.grid-item #pitPara{
+  margin-left: -20%;
+  margin-right: 25%; 
+}
+.grid-item #castPara{
+  margin-left: -20%;
+  margin-right: 25%; 
+}
+.grid-item #alikePara{
+  margin-left: -20%;
+  margin-right: 25%; 
+}
 
 .grid-item #gamesPic{
   position: relative; 
