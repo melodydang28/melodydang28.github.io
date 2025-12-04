@@ -130,4 +130,7 @@ body{
    background-size: cover; 
    background-position:center center;
 }
+.grid-item #smoshMainTitle{
+  margin-left: 10%;
+}
 
