@@ -351,3 +351,274 @@ body{
   from {scale: 0.9; opacity: 1;}
   to {scale: 1.1; opacity: 1;}
 }
+
+
+
+/*mobile format*/
+@media screen and (max-width: 600px){
+
+  
+.grid-item{
+  font-size: 1.1em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+  margin-left: 30%; 
+}
+  
+.grid-container{
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  gap: 20px; 
+}
+
+.grid-item #angPic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -20%; 
+   width: 40vw; 
+   height: 30vh; 
+   background-image: url("angela_smosh.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeOut linear;
+   animation-timeline: view();  
+}
+
+.grid-item #shaynePic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -50%; 
+   width: 40vw; 
+   height: 30vh; 
+   background-image: url("Shayne-Topp.jpg");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeOut linear;
+   animation-timeline: view();  
+}
+.grid-item #shayneName{
+  margin-left: -30%; 
+}
+.grid-item #amandaPic {
+  position: relative; 
+  justify-items: center; 
+  margin-left:0%;
+  margin-right: 0%; 
+  width:20vw; 
+  height:30vh; 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  animation: fadeIn2 linear;
+  animation-timeline: view();
+}
+  
+.grid-item #ianPic{
+  position: relative; 
+  justify-items: center;  
+  margin-left:-10%; 
+  margin-top: 13vh ;
+   width: 30vw;  
+   height: 15vh;
+   background-image: url("ian.jpg");
+   animation: fadeIn2 linear;
+   animation-timeline: view();  
+}
+.grid-item #ianName{
+  margin-top: 10vh;
+  margin-left: -15%; 
+}
+.grid-item #anthPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -20%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("anthony.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
+.grid-item #courtPic{
+ position: relative; 
+  justify-items: center; 
+  margin-left: -40%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("courtney.jpg");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+#cast #castTitleRow #header1{
+  font-size: 3.2em; 
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif; 
+  text-align: center; 
+}
+
+.grid-item #keithPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -20%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("keith.jpg");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
+.grid-item #damienPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -40%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("damien.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
+.grid-item #olivPic{
+ position: relative; 
+  justify-items: center; 
+  margin-left: -20%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("olivia.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
+.grid-item #chansePic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -40%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("chanse pic2.jpg");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
+.grid-item #arashPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -25%;
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("arasha.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
+.grid-item #trevPic{
+ position: relative; 
+  justify-items: center; 
+  margin-left: -40%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("trevor.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeIn linear;
+   animation-timeline: view();  
+}
+
+.grid-item #noahPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -30%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("noah.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeInLast linear;
+   animation-timeline: view();  
+}
+
+.grid-item #spencPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -30%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 60vw; 
+   height: 40vh; 
+   background-image: url("spencer.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeInLast linear;
+   animation-timeline: view();  
+}
+
+.grid-item #tomPic{
+   position: relative; 
+  justify-items: center; 
+  margin-left: -35%; 
+  margin-top: 30%; 
+  object-fit: cover; 
+   max-width: 40vw; 
+   height: 40vh; 
+   background-image: url("tommy.webp");
+   background-size: cover; 
+   background-position:center center;
+   animation: fadeInLast linear;
+   animation-timeline: view();  
+}
+
+  @keyframes fadeOut{
+  from {scale: 1.8; opacity: 1;}
+  to {scale: 0.3; opacity: 1;}
+}
+
+@keyframes fadeIn{
+  from {scale: 0.5; opacity: 1;}
+  to {scale: 1.1; opacity: 1;}
+}
+
+@keyframes fadeIn2{
+  from{scale:0.7; opacity: 1;}
+  to{scale:2.2; opacity:1;}
+}
+
+@keyframes fadeInLast{
+  from {scale: 0.9; opacity: 1;}
+  to {scale: 1.1; opacity: 1;}
+}
+
+}
