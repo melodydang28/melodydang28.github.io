@@ -226,7 +226,7 @@ body{
    background-size: cover; 
    background-position:center center;
 }
-.button-link {
+.buttonLink {
     /* Button-like appearance */
     display: inline-block;
     padding: 12px 24px;
@@ -238,6 +238,6 @@ body{
     cursor: pointer; /* Show "hand" cursor on hover */
     font-size: 16px;
   }
-  .button-link:hover {
+  .buttonLink:hover {
     background-color: #0056b3; /* Darker blue on hover */
   }
