@@ -103,6 +103,10 @@ body#home main{
     '. recordPic .'
     '. history .';
 }
+#home #titleRow{
+  grid-area: title; 
+  position: relative; 
+}
 #home #aboutRow{
   grid-area: about; 
 }
@@ -205,4 +209,53 @@ body#home main{
 @keyframes fadeIn2{
   from {scale: 0.6; opacity: 1;}
   to {scale: 1; opacity: 1;}
+}
+
+@media screen and (max-width: 600px) {
+  #home #titleRow{
+   margin-left:26%; 
+  }
+  #home #showPic{
+   width: 90%; 
+    margin-left:5%; 
+    object-fit: contain; 
+  }
+  #home #aboutRow #aboutHeader{
+  margin-left: 10%; 
+  }
+  #home #aboutRow #aboutPara1{
+    font-size: 1.1em;
+    margin-left: 13%; 
+    margin-right: 5%; 
+  }
+  #home #aboutRow #aboutPara2{
+    font-size: 1.1em;
+    margin-left: 13%; 
+    margin-right: 5%; 
+  }
+  #home #aboutRow #aboutPara3{
+    font-size: 1.1em;
+    margin-left: 13%; 
+    margin-right: 5%; 
+  }
+  #home #historyRow #historyHeader{
+    margin-left: 10%; 
+  }
+  .achievmentsList{
+    margin-left: 5%; 
+    margin-right: 5%;
+    font-size:1.1em; 
+  }
+
+  #home #historyRow #worldRecords{
+    margin-left: 10%; 
+  }
+
+  .worldRecordsList li{
+    margin-left: -30%; 
+    margin-right: -20%;
+    font-size: 0.8em; 
+    margin-bottom: 20%; 
+  }
+  
 }
