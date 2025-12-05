@@ -117,7 +117,7 @@ body#home main{
    width: 52vw; 
    height: 70vh; 
    background-image: url("the-smosh-family-v0-9j4p9uamztxc1.webp");
-   background-size: auto; 
+   ackground-size: auto; 
    background-position:center center;
    animation: fadeIn linear;
    animation-timeline: view();  
@@ -216,10 +216,19 @@ body#home main{
    margin-left:26%; 
   }
   #home #showPic{
-   width: 90%; 
-    margin-left:5%; 
-    object-fit: contain; 
+   width: 100%; 
+    margin-left:0%; 
+    height: 0; 
+    padding-bottom: 55%; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
   }
+
+  #home #showPicRecords{
+    width: 100%; 
+    margin-left: 0%; 
+  }
+  
   #home #aboutRow #aboutHeader{
   margin-left: 10%; 
   }
@@ -251,11 +260,23 @@ body#home main{
     margin-left: 10%; 
   }
 
+  #home #showPicRecords{
+     width: 100%; 
+    margin-left:0%; 
+    height: 0; 
+    padding-bottom: 55%; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+  }
+
   .worldRecordsList li{
     margin-left: -30%; 
     margin-right: -20%;
     font-size: 0.8em; 
     margin-bottom: 20%; 
   }
-  
+  @keyframes fadeIn{
+  from {scale: 2; opacity: 1;}
+  to {scale: 0.4; opacity: 1;}
+}
 }
