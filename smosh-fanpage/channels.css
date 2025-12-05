@@ -226,3 +226,18 @@ body{
    background-size: cover; 
    background-position:center center;
 }
+.button-link {
+    /* Button-like appearance */
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    text-decoration: none; /* Remove default link underline */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Show "hand" cursor on hover */
+    font-size: 16px;
+  }
+  .button-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
