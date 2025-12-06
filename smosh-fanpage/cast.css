@@ -18,6 +18,8 @@ body{
   margin: 0; 
   padding: var(--nav-height) 0 0 0; 
 }
+/********************/
+/*Navigation*/
 nav{
     position: absolute; 
     top: 0; 
@@ -91,10 +93,14 @@ nav.li > hover a{
 nav.li > hover{
   background-color: var(--nav-hover-bkgd-color); 
 }
+/********************/
+/*Background color*/
 body{
   background-color: rgb(44, 43, 51); 
 }
 
+/***********************/
+/*Grid layout*/
 .grid-container{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
@@ -102,13 +108,16 @@ body{
   gap: 20px; 
 }
 
+/*Text styling*/
 .grid-item{
   font-size: 1.5em; 
   color: var(--nav-bkgd-color); 
   font-family: 'franchise', sans-serif; 
   margin-left: 30%; 
 }
+/**********************/
 
+/*Picture formatting*/
 .grid-item #angPic{
   position: relative; 
   justify-items: center; 
@@ -336,7 +345,9 @@ body{
    animation: fadeInLast linear;
    animation-timeline: view();  
 }
+/***********************************/
 
+/*Animations for desktop format*/
 @keyframes fadeOut{
   from {scale: 1.8; opacity: 1;}
   to {scale: 0.3; opacity: 1;}
@@ -601,7 +612,8 @@ body{
    animation-timeline: view();  
 }
 
-  @keyframes fadeOut{
+/*Animations for mobile*/
+@keyframes fadeOut{
   from {scale: 1.8; opacity: 1;}
   to {scale: 0.3; opacity: 1;}
 }
