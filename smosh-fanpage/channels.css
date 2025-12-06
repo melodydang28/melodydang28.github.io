@@ -18,6 +18,8 @@ body{
   margin: 0; 
   padding: var(--nav-height) 0 0 0; 
 }
+/******************/
+/*Navigation bar*/
 nav{
     position: absolute; 
     top: 0; 
@@ -90,26 +92,31 @@ nav.li > hover a{
 nav.li > hover{
   background-color: var(--nav-hover-bkgd-color); 
 }
+/***********/ 
 body{
   background-color: rgb(44, 43, 51); 
 }
 
-
+/*Title of page placement*/
 #channels #channelsTitleRow{
   margin-left: 40%; 
 }
-
+/*Title styling*/
 #channels #channelsTitleRow #header1{
   font-size: 3.2em; 
   color: rgb(85, 112, 213); 
   font-family: 'franchise', sans-serif; 
 }
+
+/*grid layout for 3 column*/
 .grid-container{
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: auto auto; 
   gap: 20px; 
 }
+
+/*text styling*/
 .grid-item{
   font-size: 1.5em; 
   color: var(--nav-bkgd-color); 
@@ -118,65 +125,61 @@ body{
   align-items: center;
 }
 
-.grid-item #mainPic{
-  position: relative; 
-  justify-items: center; 
-    margin-top: 30%; 
-  margin-left: -13%; 
-   width: 15vw; 
-   height: 30vh; 
-   background-image: url("smosh main.webp");
-   background-size: cover; 
-   background-position:center center;
-}
-
+/*Title placement*/
 .grid-item #smoshMainTitle{
   margin-left: 10%;
 }
-
-.grid-item #mainPic{
-  position: relative; 
-  justify-items: center; 
-    margin-top: 30%; 
-  margin-left: -13%; 
-   width: 15vw; 
-   height: 30vh; 
-   background-image: url("smosh main.webp");
-   background-size: cover; 
-   background-position:center center;
-}
-
+/*Main channel paragraph styling*/
 .grid-item #mainPara{
     margin-left: -20%;
   margin-right: 25%; 
     font-size: 0.93em; 
 }
-
+/*Games channel paragraph styling*/
 .grid-item #gamesPara{
   margin-left: -20%;
   margin-right: 25%; 
     font-size: 0.93em; 
 }
+/*Smosh Pit channel paragraph styling*/
 .grid-item #pitPara{
   margin-left: -20%;
   margin-right: 25%; 
     font-size: 0.93em; 
 }
+/*Smosh Cast channel paragraph styling*/
 .grid-item #castPara{
   margin-left: -20%;
   margin-right: 25%; 
   margin-bottom: 20%; 
     font-size: 0.93em; 
 }
+/*Smosh Alike channel paragraph styling*/
 .grid-item #alikePara{
   margin-left: -20%;
   margin-right: 25%; 
   margin-bottom: 30%; 
     font-size: 0.93em; 
 }
+/*Smosh Cast link styling*/
 .grid-item #castLink{
  margin-top: -10%;
   margin-bottom:10%; 
+}
+/*********************/
+/*Channel pictures*/
+
+/*Image styling for the Smosh Main channel*/
+.grid-item #mainPic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("smosh main.webp");
+   background-size: cover; 
+   background-position:center center;
 }
 
 .grid-item #gamesPic{
@@ -226,40 +229,45 @@ body{
    background-size: cover; 
    background-position:center center;
 }
+/****************************/
+
+
+/*Blue "click here" Button Styling*/
 .buttonLink {
-    /* Button-like appearance */
     display: inline-block;
     padding: 12px 24px;
-    background-color: #007bff; /* Blue background */
-    color: white; /* White text */
-    text-decoration: none; /* Remove default link underline */
+    background-color: #007bff; 
+    color: white; 
+    text-decoration: none; /* Removes default link underline */
     border: none;
     border-radius: 4px;
-    cursor: pointer; /* Show "hand" cursor on hover */
+    cursor: pointer; /* "hand" cursor on hover */
     font-size: 16px;
   }
-  .buttonLink:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
 
+/*darker button when hovered*/
+.buttonLink:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/**************************************/
 /*mobile format*/
 @media screen and (max-width: 600px){
 
-.grid-item{
-  font-size: 1.5em; 
-  color: var(--nav-bkgd-color); 
-  font-family: 'franchise', sans-serif; 
-  margin-left: 30%; 
-}
-  
-.grid-container{
-  display: grid; 
-  grid-template-columns: 1fr; 
-  grid-template-rows: auto auto; 
-  gap: 20px; 
-}
-
- 
+  .grid-item{
+    font-size: 1.5em; 
+    color: var(--nav-bkgd-color); 
+    font-family: 'franchise', sans-serif; 
+    margin-left: 30%; 
+  }
+    
+  .grid-container{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 20px; 
+  }
 
   #channelsTitleRow #header1{
     margin-left: -35vw;
@@ -334,3 +342,4 @@ body{
     margin-left: 3%; 
   }
 }
+/**************************************/

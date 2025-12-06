@@ -1,5 +1,7 @@
 /*CSS for responsive menu*/
 /*Laptop*/
+
+
 /*Defining variables*/
 :root{
     --nav-height: 4rem; 
@@ -18,6 +20,8 @@ body{
   margin: 0; 
   padding: var(--nav-height) 0 0 0; 
 }
+/****************/
+/*Navigation Bar Styling*/
 nav{
     position: absolute; 
     top: 0; 
@@ -88,11 +92,14 @@ nav a {
 nav.li > hover a{
   color: var(--nav-hover-text-color); 
 }
+/************/
 
+/*defining the background color of the page*/
 body{
   background-color: rgb(44, 43, 51); 
 }
 
+/*Page Information Grid Layout*/
 body#home main{
   display: grid; 
   grid-template-columns: repeat(3, auto); 
@@ -104,6 +111,8 @@ body#home main{
     '. recordPic .'
     '. history .';
 }
+
+/*Assigning written sections to grid layout*/
 #home #titleRow{
   grid-area: title; 
   position: relative; 
@@ -121,7 +130,7 @@ body#home main{
    background-size: auto; 
    background-position:center center;
    animation: fadeIn linear;
-   animation-timeline: view();  
+   animation-timeline: view();   
 }
 #home #showPicRecords{
   grid-area: recordPic; 
@@ -135,6 +144,20 @@ body#home main{
    animation: fadeIn2 linear;
    animation-timeline: view();  
 }
+#home #titleRow{
+  grid-area: title; 
+  margin-left: 45%; 
+}
+#home #titleRow #header1{
+  font-size: 3.2em; 
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif; 
+}
+#home #historyRow{
+  grid-area: history; 
+}
+/*****************************/
+/*Styling about Smosh section*/
 #home #aboutRow #aboutHeader{
   font-size: 1.8em; 
   color: var(--nav-bkgd-color);  
@@ -162,9 +185,9 @@ body#home main{
   margin-left: 21%; 
   margin-right: 20%;
 }
-#home #historyRow{
-  grid-area: history; 
-}
+/*****************************/
+
+/*Styling Achievments section*/ 
 #home #historyRow #historyHeader{
   font-size: 1.8em; 
   color: var(--nav-bkgd-color);  
@@ -178,6 +201,9 @@ body#home main{
   margin-left: 21%; 
   margin-right: 20%; 
 }
+/*****************************/
+
+/*Styling world Records Section*/
 #home #historyRow #worldRecords{
   font-size: 1.8em; 
   color: var(--nav-bkgd-color);  
@@ -194,15 +220,10 @@ body#home main{
 .worldRecordsList li{
   margin-bottom: 4%;
 }
-#home #titleRow{
-  grid-area: title; 
-  margin-left: 45%; 
-}
-#home #titleRow #header1{
-  font-size: 3.2em; 
-  color: rgb(85, 112, 213); 
-  font-family: 'franchise', sans-serif; 
-}
+/*****************************/
+
+
+/*Animations for the images based on scrolling view; scales images up and down*/
 @keyframes fadeIn{
   from {scale: 1.5; opacity: 1;}
   to {scale: 0.4; opacity: 1;}
@@ -212,6 +233,7 @@ body#home main{
   to {scale: 1; opacity: 1;}
 }
 
+/*Mobile repsonsive design*/ 
 @media screen and (max-width: 600px) {
   nav{
    width: 105%
@@ -279,6 +301,7 @@ body#home main{
     font-size: 0.8em; 
     margin-bottom: 20%; 
   }
+  /*Made image animation smaller scale*/
   @keyframes fadeIn{
   from {scale: 2; opacity: 1;}
   to {scale: 0.4; opacity: 1;}
