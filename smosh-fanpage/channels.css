@@ -96,7 +96,6 @@ body{
 
 
 #channels #channelsTitleRow{
-  grid-area: title; 
   margin-left: 40%; 
 }
 
@@ -242,3 +241,96 @@ body{
   .buttonLink:hover {
     background-color: #0056b3; /* Darker blue on hover */
   }
+
+/*mobile format*/
+@media screen and (max-width: 600px){
+
+.grid-item{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+  margin-left: 30%; 
+}
+  
+.grid-container{
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: auto auto; 
+  gap: 20px; 
+}
+
+ 
+
+  #channelsTitleRow #header1{
+    margin-left: -35vw;
+    text-align: center; 
+  }
+
+   .grid-item #mainPic{
+     width: 70vw; 
+   height: 30vh; 
+    margin-left: -15vw; 
+  }
+  
+  .grid-item #mainPara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+  }
+
+  .grid-item #gamesPic{
+    width: 70vw; 
+    height: 30vh; 
+    margin-left: -15vw;
+  }
+   .grid-item #gamesPara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+  }
+
+    .grid-item #pitPic{
+    width: 70vw; 
+    height: 30vh; 
+    margin-left: -15vw;
+  }
+   .grid-item #pitPara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+  }
+    .grid-item #castPic{
+    width: 70vw; 
+    height: 30vh; 
+    margin-left: -15vw;
+  }
+   .grid-item #castPara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+  }
+
+    .grid-item #alikePic{
+    width: 70vw; 
+    height: 30vh; 
+    margin-left: -15vw;
+  }
+   .grid-item #alikePara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+  }
+  .grid-item #alike{
+    margin-top: -10%; 
+  }
+  .buttonLink{
+    margin-left: 3%; 
+  }
+  
+
+}
