@@ -312,6 +312,7 @@ body{
     margin-right: 23%; 
     font-size: 0.93em;
     text-align: center; 
+    margin-bottom: 10%; 
   }
 
     .grid-item #alikePic{
@@ -324,13 +325,12 @@ body{
     margin-right: 23%; 
     font-size: 0.93em;
     text-align: center; 
+     margin-bottom: 10%; 
   }
-  .grid-item #alike{
-    margin-top: -10%; 
+  .grid-item #alikeLink{
+    margin-bottom: 20%; 
   }
   .buttonLink{
     margin-left: 3%; 
   }
-  
-
 }
