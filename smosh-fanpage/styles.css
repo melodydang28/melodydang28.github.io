@@ -22,7 +22,7 @@ nav{
     position: absolute; 
     top: 0; 
     left: 0; 
-    width: 105%; 
+    width: 100%; 
     height: var(--nav-height); 
     background-color: var(--nav-bkgd-color); 
     max-width: 900vw; 
@@ -213,7 +213,9 @@ body#home main{
 }
 
 @media screen and (max-width: 600px) {
-
+  nav{
+   width: 105%
+  }
   #home #titleRow{
    margin-left:26%; 
   }
