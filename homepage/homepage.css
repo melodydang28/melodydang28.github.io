@@ -40,11 +40,8 @@ body{
   text-align: center;
 }
 
-#majorProject.target{
+#target{
     text-align: center; 
-}
-.grid-item #target{
-    margin-left: 15%; 
 }
 /*grid layout for 3 column*/
 .grid-container{
