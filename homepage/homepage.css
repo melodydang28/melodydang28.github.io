@@ -19,23 +19,27 @@ body{
   background-color: rgb(68 82 136); 
 }
 
+
 #activities {
-  font-size: 1.5em; 
+  font-size: 1.7em; 
   color:rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
 }
 #projects{
-  font-size: 1.5em; 
+  font-size: 1.7em; 
   color:rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
 }
 
-#majorProject{
-  font-size: 1.5em; 
+#majorTitle{
+  font-size: 1.7em; 
   color:rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
 }
 
+.majorProject a{
+    margin-left: 15%; 
+}
 /*grid layout for 3 column*/
 .grid-container{
   display: grid; 
@@ -61,7 +65,7 @@ body{
 .buttonLink {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #0066ff; 
+    background-color: #383464; 
     color: white; 
     text-decoration: none; /* Removes default link underline */
     border: none;
