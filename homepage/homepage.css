@@ -5,11 +5,34 @@
   color: rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
 }
+#description{
+  font-size: 3.2em; 
+  color: rgb(218, 212, 245); 
+  font-family: 'franchise', sans-serif;
+}
+
 
 
 body{
-  background-color: rgb(44, 43, 51); 
+  background-color: rgb(68 82 136); 
 }
+
+#activities {
+    font-size: 1.2em; 
+  color: rgb(218, 212, 245); 
+  font-family: 'franchise', sans-serif;
+}
+/*grid layout for 3 column*/
+.grid-container{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  gap: 20px; 
+}
+
+
+
+
 
 /*Blue "click here" Button Styling*/
 .buttonLink {
