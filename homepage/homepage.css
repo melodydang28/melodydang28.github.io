@@ -40,6 +40,9 @@ body{
   text-align: center;
 }
 
+#majorProject.target{
+    text-align: center; 
+}
 .grid-item #target{
     margin-left: 15%; 
 }
@@ -60,7 +63,8 @@ body{
 }
 
 .grid-item{
-  margin-left: 15%; 
+  margin-left: 15%;
+  margin-bottom: 5%;  
 }
 
 
