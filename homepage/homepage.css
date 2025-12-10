@@ -24,17 +24,20 @@ body{
   font-size: 1.7em; 
   color:rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
+  text-align: center;
 }
 #projects{
   font-size: 1.7em; 
   color:rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
+  text-align: center;
 }
 
 #majorTitle{
   font-size: 1.7em; 
   color:rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
+  text-align: center;
 }
 
 .grid-item #target{
