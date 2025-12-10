@@ -18,8 +18,13 @@ body{
 }
 
 #activities {
-    font-size: 1.2em; 
-  color: rgb(218, 212, 245); 
+  font-size: 1.2em; 
+  color:rgb(163, 146, 240); 
+  font-family: 'franchise', sans-serif;
+}
+#projects{
+  font-size: 1.2em; 
+  color:rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
 }
 /*grid layout for 3 column*/
@@ -30,7 +35,13 @@ body{
   gap: 20px; 
 }
 
-
+/*grid layout for 2 column*/
+.grid-container-2{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  gap: 20px; 
+}
 
 
 
