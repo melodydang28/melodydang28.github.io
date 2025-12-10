@@ -38,6 +38,8 @@ body{
   color:rgb(218, 212, 245); 
   font-family: 'franchise', sans-serif;
   text-align: center;
+  margin-left: 10%; 
+  margin-right: 10%; 
 }
 #majorTitle{
   font-size: 1.7em; 
