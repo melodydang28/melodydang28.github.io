@@ -303,7 +303,7 @@ body#home main{
   }
   /*Made image animation smaller scale*/
   @keyframes fadeIn{
-  from {scale: 2; opacity: 1;}
+  from {scale: 2.1; opacity: 1;}
   to {scale: 0.4; opacity: 1;}
   }
 }
