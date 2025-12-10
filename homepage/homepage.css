@@ -37,7 +37,7 @@ body{
   font-family: 'franchise', sans-serif;
 }
 
-.majorProject a{
+.grid-item #target{
     margin-left: 15%; 
 }
 /*grid layout for 3 column*/
