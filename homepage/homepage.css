@@ -33,14 +33,29 @@ body{
   text-align: center;
 }
 
+#explain{
+ font-size: 1.5em; 
+  color:rgb(163, 146, 240); 
+  font-family: 'franchise', sans-serif;
+  text-align: center;
+}
 #majorTitle{
   font-size: 1.7em; 
   color:rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
   text-align: center;
 }
+#codeAc{
+    font-size: 1.7em; 
+  color:rgb(163, 146, 240); 
+  font-family: 'franchise', sans-serif;
+  text-align: center;
+}
 
 #target{
+    text-align: center; 
+}
+#codeAcProf{
     text-align: center; 
 }
 /*grid layout for 3 column*/
