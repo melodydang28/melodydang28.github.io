@@ -34,10 +34,10 @@ body{
   font-family: 'franchise', sans-serif;
 }
 
-/*grid layout for 3 column*/
+/*grid layout for 2 column*/
 .grid-container{
   display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr; 
   grid-template-rows: auto auto; 
   gap: 20px; 
 }
