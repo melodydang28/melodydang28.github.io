@@ -1,0 +1,30 @@
+
+
+#name{
+  font-size: 3.2em; 
+  color: rgb(163, 146, 240); 
+  font-family: 'franchise', sans-serif;
+}
+
+
+body{
+  background-color: rgb(44, 43, 51); 
+}
+
+/*Blue "click here" Button Styling*/
+.buttonLink {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0066ff; 
+    color: white; 
+    text-decoration: none; /* Removes default link underline */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* "hand" cursor on hover */
+    font-size: 16px;
+  }
+
+/*darker button when hovered*/
+.buttonLink:hover {
+  background-color: #0251a6; /* Darker blue on hover */
+}
