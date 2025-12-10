@@ -1,17 +1,19 @@
-
-
-#name{
+ #name{
   font-size: 3.2em; 
   color: rgb(163, 146, 240); 
   font-family: 'franchise', sans-serif;
+  text-align: center; 
 }
 #description{
   font-size: 1.7em; 
   color: rgb(218, 212, 245); 
   font-family: 'franchise', sans-serif;
+  text-align: center; 
 }
 
-
+#gitLink{
+  text-align: center; 
+}
 
 body{
   background-color: rgb(68 82 136); 
@@ -34,10 +36,10 @@ body{
   font-family: 'franchise', sans-serif;
 }
 
-/*grid layout for 2 column*/
+/*grid layout for 3 column*/
 .grid-container{
   display: grid; 
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: auto auto; 
   gap: 20px; 
 }
@@ -50,6 +52,9 @@ body{
   gap: 20px; 
 }
 
+.grid-item{
+  margin-left: 15%; 
+}
 
 
 /*Blue "click here" Button Styling*/
@@ -63,6 +68,7 @@ body{
     border-radius: 4px;
     cursor: pointer; /* "hand" cursor on hover */
     font-size: 18px;
+   font-family: 'franchise', sans-serif;
   }
 
 /*darker button when hovered*/
