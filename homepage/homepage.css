@@ -45,6 +45,9 @@ body{
   font-family: 'franchise', sans-serif;
   text-align: center;
 }
+#finalLink{
+    text-align: center; 
+}
 #codeAc{
     font-size: 1.7em; 
   color:rgb(163, 146, 240); 
@@ -117,5 +120,7 @@ body{
   gap: 20px; 
 }
 
-
+#explain{
+    font-size: 1.2em; 
+}
 }
