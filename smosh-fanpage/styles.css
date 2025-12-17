@@ -112,6 +112,10 @@ body#home main{
     '. history .';
 }
 
+#home #footer{
+  color: orange; 
+}
+
 /*Assigning written sections to grid layout*/
 #home #titleRow{
   grid-area: title; 
