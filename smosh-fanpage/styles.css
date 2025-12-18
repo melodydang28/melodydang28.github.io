@@ -134,7 +134,8 @@ body#home main{
    background-size: auto; 
    background-position:center center;
    animation: fadeIn linear;
-   animation-timeline: view();   
+   animation-timeline: view();  
+     background-repeat:no-repeat;  
 }
 #home #showPicRecords{
   grid-area: recordPic; 
@@ -146,7 +147,8 @@ body#home main{
    background-size: auto; 
    background-position:center center;
    animation: fadeIn2 linear;
-   animation-timeline: view();  
+   animation-timeline: view();
+    background-repeat:no-repeat;   
 }
 #home #titleRow{
   grid-area: title; 
