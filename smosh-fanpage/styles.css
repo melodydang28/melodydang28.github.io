@@ -824,7 +824,7 @@ body#home main{
     margin-left: 30%; 
   }
     
-  .grid-container{
+  .grid-container-cast{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: auto auto; 
