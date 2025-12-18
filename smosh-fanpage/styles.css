@@ -238,6 +238,165 @@ body#home main{
   from {scale: 0.6; opacity: 1;}
   to {scale: 1; opacity: 1;}
 }
+/*channels css*/
+
+/*Title of page placement*/
+#channels #channelsTitleRow{
+  margin-left: 40%; 
+}
+/*Title styling*/
+#channels #channelsTitleRow #header1{
+  font-size: 3.2em; 
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif; 
+}
+
+/*grid layout for 3 column*/
+.grid-container-channels{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  gap: 20px; 
+}
+
+/*text styling*/
+.grid-item{
+  font-size: 1.5em; 
+  color: var(--nav-bkgd-color); 
+  font-family: 'franchise', sans-serif; 
+  margin-left: 30%; 
+  align-items: center;
+}
+
+/*Title placement*/
+.grid-item #smoshMainTitle{
+  margin-left: 10%;
+}
+/*Main channel paragraph styling*/
+.grid-item #mainPara{
+    margin-left: -20%;
+  margin-right: 25%; 
+    font-size: 0.93em; 
+}
+/*Games channel paragraph styling*/
+.grid-item #gamesPara{
+  margin-left: -20%;
+  margin-right: 25%; 
+    font-size: 0.93em; 
+}
+/*Smosh Pit channel paragraph styling*/
+.grid-item #pitPara{
+  margin-left: -20%;
+  margin-right: 25%; 
+    font-size: 0.93em; 
+}
+/*Smosh Cast channel paragraph styling*/
+.grid-item #castPara{
+  margin-left: -20%;
+  margin-right: 25%; 
+  margin-bottom: 20%; 
+    font-size: 0.93em; 
+}
+/*Smosh Alike channel paragraph styling*/
+.grid-item #alikePara{
+  margin-left: -20%;
+  margin-right: 25%; 
+  margin-bottom: 30%; 
+    font-size: 0.93em; 
+}
+/*Smosh Cast link styling*/
+.grid-item #castLink{
+ margin-top: -10%;
+  margin-bottom:10%; 
+}
+/*********************/
+/*Channel pictures*/
+
+/*Image styling for the Smosh Main channel*/
+.grid-item #mainPic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("images/smosh\ main.webp");
+   background-size: cover; 
+   background-position:center center;
+}
+
+.grid-item #gamesPic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("images/smosh\ games.png");
+   background-size: cover; 
+   background-position:center center;
+}
+
+.grid-item #pitPic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("images/pit.webp");
+   background-size: cover; 
+   background-position:center center;
+}
+
+.grid-item #castPic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("images/cast.webp");
+   background-size: cover; 
+   background-position:center center;
+}
+
+.grid-item #alikePic{
+  position: relative; 
+  justify-items: center; 
+    margin-top: 30%; 
+  margin-left: -13%; 
+   width: 15vw; 
+   height: 30vh; 
+   background-image: url("images/alike.webp");
+   background-size: cover; 
+   background-position:center center;
+}
+/****************************/
+
+
+/*Blue "click here" Button Styling*/
+.buttonLink {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff; 
+    color: white; 
+    text-decoration: none; /* Removes default link underline */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* "hand" cursor on hover */
+    font-size: 16px;
+  }
+
+/*darker button when hovered*/
+.buttonLink:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+
 
 /*Mobile repsonsive design*/ 
 @media screen and (max-width: 600px) {
@@ -311,5 +470,92 @@ body#home main{
   @keyframes fadeIn{
   from {scale: 2.1; opacity: 1;}
   to {scale: 0.4; opacity: 1;}
+  }
+
+  .grid-item{
+    font-size: 1.5em; 
+    color: var(--nav-bkgd-color); 
+    font-family: 'franchise', sans-serif; 
+    margin-left: 30%; 
+  }
+    
+  .grid-container-channels{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 20px; 
+  }
+
+  #channelsTitleRow #header1{
+    margin-left: -35vw;
+    text-align: center; 
+  }
+
+   .grid-item #mainPic{
+     width: 70vw; 
+   height: 30vh; 
+    margin-left: -15vw; 
+  }
+  
+  .grid-item #mainPara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+  }
+
+  .grid-item #gamesPic{
+    width: 70vw; 
+    height: 30vh; 
+    margin-left: -15vw;
+  }
+   .grid-item #gamesPara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+  }
+
+    .grid-item #pitPic{
+    width: 70vw; 
+    height: 30vh; 
+    margin-left: -15vw;
+  }
+   .grid-item #pitPara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+  }
+    .grid-item #castPic{
+    width: 70vw; 
+    height: 30vh; 
+    margin-left: -15vw;
+  }
+   .grid-item #castPara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+    margin-bottom: 10%; 
+  }
+
+    .grid-item #alikePic{
+    width: 70vw; 
+    height: 30vh; 
+    margin-left: -15vw;
+  }
+   .grid-item #alikePara{
+    margin-left: -20%;
+    margin-right: 23%; 
+    font-size: 0.93em;
+    text-align: center; 
+     margin-bottom: 10%; 
+  }
+  .grid-item #alikeLink{
+    margin-bottom: 20%; 
+  }
+  .buttonLink{
+    margin-left: 3%; 
   }
 }
