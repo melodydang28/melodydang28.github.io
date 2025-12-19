@@ -8,7 +8,6 @@ body{
 .buttonLink {
     display: inline-block;
     padding: 12px 24px;
-
     background-color: #9f535fad; 
     color: white; 
     text-decoration: none; /* Removes default link underline */
