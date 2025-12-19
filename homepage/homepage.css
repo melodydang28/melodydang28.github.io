@@ -125,13 +125,14 @@ body{
 }
 
 #explain{
-    font-size: 1.2em; 
+  font-size: 1.2em; 
 }
-  #codeAc{
-    margin-top: 20%; 
-  }
-  #codeAcProf{
-    text-align: center; 
-    margin-bottom: 15%;
+#codeAc{
+  margin-top: 20%; 
+}
+
+#codeAcProf{
+  text-align: center; 
+  margin-bottom: 15%;
 }
 }
