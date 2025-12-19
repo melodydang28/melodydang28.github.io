@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(250, 202, 163); 
+  background-color: rgb(251, 169, 142); 
 }
 
 
@@ -8,7 +8,7 @@ body{
 .buttonLink {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #383464; 
+    background-color: #648bf7; 
     color: white; 
     text-decoration: none; /* Removes default link underline */
     border: none;
