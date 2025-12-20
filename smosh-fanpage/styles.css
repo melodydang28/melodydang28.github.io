@@ -657,7 +657,7 @@ body#home main{
     position: relative; 
   justify-items: center; 
     margin-top: 30%; 
-  margin-left: 0%; 
+  margin-left: 10%; 
    width: 20vw; 
    height: 50vh; 
    background-image: url("images/smosh\ TNTL.webp");
@@ -667,6 +667,7 @@ body#home main{
 }
 .grid-item #tntlTitle{
   text-align: center; 
+  margin-top: -20%; 
 }
 
 /**********************/
