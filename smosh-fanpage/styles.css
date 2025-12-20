@@ -656,7 +656,7 @@ body#home main{
 .grid-item #TNTLPic{
     position: relative; 
   justify-items: center; 
-    margin-top: 30%; 
+    margin-top: 10%; 
   margin-left: 10%; 
    width: 20vw; 
    height: 50vh; 
@@ -670,6 +670,13 @@ body#home main{
   margin-top: -20%; 
 }
 
+.grid-item #tntlPara{
+  text-align: center; 
+}
+
+.zoom-img:hover{
+  transform: scale(1.5); 
+}
 /**********************/
 
 
