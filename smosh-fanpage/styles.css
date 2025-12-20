@@ -646,6 +646,13 @@ body#home main{
   gap: 20px; 
 }
 
+#Segments #titleRow #header1{
+  font-size: 3.2em; 
+  color: rgb(85, 112, 213); 
+  font-family: 'franchise', sans-serif; 
+  text-align: center; 
+}
+
 .grid-item #TNTLPic{
   position: relative; 
   justify-items: center; 
