@@ -654,16 +654,19 @@ body#home main{
 }
 
 .grid-item #TNTLPic{
-  position: relative; 
+    position: relative; 
   justify-items: center; 
     margin-top: 30%; 
-  margin-left: -13%; 
-   width: 15vw; 
-   height: 30vh; 
+  margin-left: 0%; 
+   width: 20vw; 
+   height: 50vh; 
    background-image: url("images/smosh\ TNTL.webp");
-   background-size: cover; 
+   background-size: auto; 
    background-position:center center;
-
+  background-repeat: no-repeat; 
+}
+.grid-item #tntlTitle{
+  text-align: center; 
 }
 
 /**********************/
