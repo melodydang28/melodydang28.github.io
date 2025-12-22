@@ -664,6 +664,8 @@ body#home main{
    background-size: auto; 
    background-position:center center;
   background-repeat: no-repeat; 
+  animation: fadeInSeg1 linear; 
+  animation-timeline: view(); 
 }
 .grid-item #tntlTitle{
   text-align: center; 
@@ -698,7 +700,15 @@ body#home main{
   to {scale: 1.1; opacity: 1;}
 }
 
+@keyframes fadeInSeg1{
+  from {opacity: 1;}
+  to{opacity: 0.3;}
+}
 
+@keyframes fadeInSegRest{
+  from {opacity: 0.3;}
+  to{opacity: 1;}
+}
 
 
 
@@ -1108,6 +1118,23 @@ body#home main{
     background-position:center center;
     animation: fadeInLast linear;
     animation-timeline: view();  
+  }
+
+  /*Segments*/
+  .grid-container-segments{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 20px; 
+  }
+  .grid-item #tntlTitle{
+    margin-top: 20%; 
+    margin-left: -10%; 
+  }
+
+  .grid-item #tntlPara{
+    width: 60vw; 
+    margin-left: -10%; 
   }
 
 
