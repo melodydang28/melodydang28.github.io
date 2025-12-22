@@ -664,8 +664,6 @@ body#home main{
    background-size: auto; 
    background-position:center center;
   background-repeat: no-repeat; 
-  animation: fadeInSeg1 linear; 
-  animation-timeline: view(); 
 }
 .grid-item #tntlTitle{
   text-align: center; 
@@ -1135,10 +1133,6 @@ body#home main{
   }
   /*the rest of the segments will have @keyframes fadeInSeg1*/
 
-@keyframes fadeInSegRest{
-  from {opacity: 0.3;}
-  to{opacity: 1;}
-}
   .grid-item #tntlTitle{
     margin-top: 20%; 
     margin-left: -40%;
