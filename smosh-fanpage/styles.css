@@ -675,14 +675,13 @@ body#home main{
 }
 
 .grid-item #BeoPic{
-      position: relative; 
+  position: relative; 
   justify-items: center; 
-    margin-top: 10%; 
-  margin-left: 10%; 
-   width: 20vw; 
+   margin-top: 10%; 
+  margin-left: -10%; 
+   width: 30vw; 
    height: 50vh; 
    background-image: url("images/beopardy.webp");
-   background-size: auto; 
    background-position:center center;
   background-repeat: no-repeat; 
 }
