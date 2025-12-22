@@ -674,6 +674,19 @@ body#home main{
   text-align: center; 
 }
 
+.grid-item #BeoPic{
+      position: relative; 
+  justify-items: center; 
+    margin-top: 10%; 
+  margin-left: 10%; 
+   width: 20vw; 
+   height: 50vh; 
+   background-image: url("images/beopardy.webp");
+   background-size: auto; 
+   background-position:center center;
+  background-repeat: no-repeat; 
+}
+
 .zoom-img:hover{
   transform: scale(1.1); 
 }
@@ -697,7 +710,7 @@ body#home main{
   from {scale: 0.9; opacity: 1;}
   to {scale: 1.1; opacity: 1;}
 }
-
+/*
 @keyframes fadeInSeg1{
   from {opacity: 1;}
   to{opacity: 0.3;}
@@ -707,7 +720,7 @@ body#home main{
   from {opacity: 0.3;}
   to{opacity: 1;}
 }
-
+*/
 
 
 /*Mobile repsonsive design*/ 
@@ -1163,10 +1176,10 @@ body#home main{
     from {scale: 0.9; opacity: 1;}
     to {scale: 1.1; opacity: 1;}
   }
-
+/*
 @keyframes fadeInSeg{
   from {opacity: 0.3;}
   to{opacity: 1;}
 }
-
+*/
 }
