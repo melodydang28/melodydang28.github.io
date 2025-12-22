@@ -1127,16 +1127,27 @@ body#home main{
     grid-template-rows: auto auto; 
     gap: 20px; 
   }
+   .grid-item #TNTLPic{
+    width: 100%; 
+    height: 30vh;
+    margin-left: -20%;
+    background-size: cover; 
+  }
+  /*the rest of the segments will have @keyframes fadeInSeg1*/
+
+@keyframes fadeInSegRest{
+  from {opacity: 0.3;}
+  to{opacity: 1;}
+}
   .grid-item #tntlTitle{
     margin-top: 20%; 
-    margin-left: -10%; 
+    margin-left: -40%;
   }
 
   .grid-item #tntlPara{
-    width: 60vw; 
-    margin-left: -10%; 
+    width: 70vw; 
+    margin-left: -20%; 
   }
-
 
   /*Animations for mobile*/
   @keyframes fadeOut{
@@ -1158,5 +1169,10 @@ body#home main{
     from {scale: 0.9; opacity: 1;}
     to {scale: 1.1; opacity: 1;}
   }
+
+@keyframes fadeInSeg{
+  from {opacity: 0.3;}
+  to{opacity: 1;}
+}
 
 }
