@@ -697,6 +697,19 @@ body#home main{
  text-align: center;
 }
 
+.grid-item #challengePic{
+  position: relative; 
+  justify-items: center; 
+   margin-top: 30%; 
+  margin-left: -10%; 
+   width: 28vw; 
+   height: 30vh; 
+   background-image: url("images/");
+   background-position:center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  object-fit:cover; 
+}
 
   .grid-item #challengeTitle{
     text-align: center;  
