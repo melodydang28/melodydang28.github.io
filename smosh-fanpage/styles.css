@@ -681,9 +681,18 @@ body#home main{
   margin-left: -10%; 
    width: 30vw; 
    height: 50vh; 
-   background-image: url("images/beopardy.webp");
+   background-image: url("images/beopardy.jpg");
    background-position:center center;
   background-repeat: no-repeat; 
+}
+
+.grid-item #BeoTitle{
+  text-align: center; 
+  margin-top: -20%; 
+}
+
+.grid-item #BeoPara{
+ text-align: center;
 }
 
 .zoom-img:hover{
