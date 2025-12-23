@@ -1211,6 +1211,10 @@ body#home main{
     margin-left: -25%; 
   }
 
+    .grid-item #challengePic{
+    width: 80vw; 
+    margin-left: -27%;
+  }
 
   .grid-item #challengeTitle{
     margin-top: 10%; 
