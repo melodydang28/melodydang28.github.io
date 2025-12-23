@@ -1225,7 +1225,8 @@ body#home main{
 
   .grid-item #BeoPic{
     width: 80vw; 
-    margin-left: -25%; 
+    margin-left: -25%;
+      margin-top: 15%;
   }
   .grid-item #BeoTitle{
    margin-top: 10%; 
@@ -1239,6 +1240,7 @@ body#home main{
     .grid-item #challengePic{
     width: 80vw; 
     margin-left: -27%;
+    margin-top: 15%;
   }
 
   .grid-item #challengeTitle{
@@ -1250,6 +1252,24 @@ body#home main{
     width: 80vw; 
     margin-left: -25%; 
   }
+
+  .grid-item #redditPic{
+  position: relative; 
+  justify-items: center; 
+   margin-top: 15%; 
+  margin-left: -25%; 
+   width: 80vw; 
+   height: 27vh; 
+   background-image: url("images/smoshReddit.webp");
+   background-position:center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  object-fit:cover; 
+}
+
+.grid-item #redditTitle{
+  margin-top: 10%; 
+}
 
   /*Animations for mobile*/
   @keyframes fadeOut{
