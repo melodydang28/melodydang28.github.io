@@ -677,18 +677,20 @@ body#home main{
 .grid-item #BeoPic{
   position: relative; 
   justify-items: center; 
-   margin-top: 10%; 
+   margin-top: 30%; 
   margin-left: -10%; 
-   width: 30vw; 
-   height: 50vh; 
+   width: 28vw; 
+   height: 30vh; 
    background-image: url("images/beopardy.jpg");
    background-position:center center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  object-fit:cover; 
 }
 
 .grid-item #BeoTitle{
   text-align: center; 
-  margin-top: -20%; 
+  margin-top: 5%; 
 }
 
 .grid-item #BeoPara{
