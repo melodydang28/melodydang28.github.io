@@ -657,7 +657,7 @@ body#home main{
     position: relative; 
   justify-items: center; 
     margin-top: 10%; 
-  margin-left: 10%; 
+  margin-left: -10%; 
    width: 20vw; 
    height: 50vh; 
    background-image: url("images/smosh\ TNTL.webp");
@@ -668,17 +668,19 @@ body#home main{
 .grid-item #tntlTitle{
   text-align: center; 
   margin-top: -20%; 
+  margin-left: -10%; 
 }
 
 .grid-item #tntlPara{
-  text-align: center; 
+  text-align: center;
+  margin-left: -20%;
+  margin-right: 10%; 
 }
-
 .grid-item #BeoPic{
   position: relative; 
   justify-items: center; 
    margin-top: 30%; 
-  margin-left: -10%; 
+  margin-left: -30%; 
    width: 28vw; 
    height: 30vh; 
    background-image: url("images/beopardy.jpg");
@@ -691,19 +693,22 @@ body#home main{
 .grid-item #BeoTitle{
   text-align: center; 
   margin-top: 5%; 
+ margin-left: -10%; 
 }
 
 .grid-item #beoPara{
  text-align: center;
+  margin-left: -20%;
+  margin-right: 10%; 
 }
 
 .grid-item #challengePic{
   position: relative; 
   justify-items: center; 
-   margin-top: 30%; 
-  margin-left: -10%; 
-   width: 28vw; 
-   height: 30vh; 
+   margin-top: 35%; 
+  margin-left: -30%; 
+   width: 27vw; 
+   height: 27vh; 
    background-image: url("images/chalPit.webp");
    background-position:center center;
   background-repeat: no-repeat;
@@ -714,11 +719,15 @@ body#home main{
   .grid-item #challengeTitle{
     text-align: center;  
     margin-top: 5%; 
+    margin-left: -30%; 
   }
 
   .grid-item #challengePara{
    text-align: center; 
+    margin-left: -20%;
+    margin-right: 10%; 
   }
+
 
 .zoom-img:hover{
   transform: scale(1.1); 
