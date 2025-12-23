@@ -1179,6 +1179,17 @@ body#home main{
     margin-left: -25%; 
   }
 
+
+  .grid-item #challengeTitle{
+    margin-top: 10%; 
+    margin-left: -40%;
+  }
+
+  .grid-item #challengePara{
+    width: 80vw; 
+    margin-left: -25%; 
+  }
+
   /*Animations for mobile*/
   @keyframes fadeOut{
     from {scale: 1.8; opacity: 1;}
