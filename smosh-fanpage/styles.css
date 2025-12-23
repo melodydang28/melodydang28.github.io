@@ -697,6 +697,16 @@ body#home main{
  text-align: center;
 }
 
+
+  .grid-item #challengeTitle{
+    text-align: center;  
+    margin-top: 5%; 
+  }
+
+  .grid-item #challengePara{
+   text-align: center; 
+  }
+
 .zoom-img:hover{
   transform: scale(1.1); 
 }
