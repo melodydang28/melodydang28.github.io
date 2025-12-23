@@ -1166,6 +1166,19 @@ body#home main{
     margin-left: -20%; 
   }
 
+  .grid-item #BeoPic{
+    width: 80vw; 
+    margin-left: -25%; 
+  }
+  .grid-item #BeoTitle{
+   margin-top: 10%; 
+    margin-left: -40%;
+  }
+  .grid-item #beoPara{
+    width: 80vw; 
+    margin-left: -25%; 
+  }
+
   /*Animations for mobile*/
   @keyframes fadeOut{
     from {scale: 1.8; opacity: 1;}
