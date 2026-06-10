@@ -1,3 +1,4 @@
-body#home main{
-    
+body{
+    min-height: 100vh; 
+    background-color: #6e8c62;
 }
