@@ -81,13 +81,14 @@ body#home main{
     '. title .';
 }
 #home #name{
-  grid-area: title; 
-  margin-top: 5%; 
-  margin-left: 30%; 
+   grid-area: title; 
+  margin-top: 20%; 
+  margin-left: 22%; 
 }
 
 
 #home #name #header1{
     font-family: 'kav', sans-serif;
     color: white; 
+    font-size: 50px;
 }
