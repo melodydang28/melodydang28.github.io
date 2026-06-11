@@ -23,7 +23,7 @@ body{
 nav{
     width: 25%; 
     margin-top: 2%; 
-    margin-left: 35%; 
+    margin-left: 38%; 
     height: var(--nav-height); 
     background-color: var(--nav-bkgd-color);
     position:center; 
@@ -62,4 +62,17 @@ ul li{
 /*darker button when hovered*/
 .buttonLink:hover {
   background-color: #486940; /* Darker blue on hover */
+}
+
+/*Page Information Grid Layout*/
+body#home main{
+  display: grid; 
+  grid-template-columns: repeat(3, auto); 
+  grid-template-rows: repeat(6, auto); 
+  grid-template-areas: 
+    '. title .';
+}
+#home #name{
+  grid-area: title; 
+  margin-left: 45%; 
 }
