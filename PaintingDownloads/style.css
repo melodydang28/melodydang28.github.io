@@ -1,3 +1,11 @@
+/*Setting custom font*/
+@font-face {
+    font-family: 'kav';
+    src: url('PaintingDownloads/Kavoon-Regular.ttf') format('ttf');
+      font-weight: normal;
+  font-style: normal;
+}
+
 /*home page styling*/
 *{
     padding : 0; 
@@ -74,5 +82,12 @@ body#home main{
 }
 #home #name{
   grid-area: title; 
-  margin-left: 45%; 
+  margin-top: 5%; 
+  margin-left: 30%; 
+}
+
+
+#home #name #header1{
+    font-family: 'kav', sans-serif;
+    color: white; 
 }
