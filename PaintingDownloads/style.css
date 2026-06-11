@@ -21,12 +21,13 @@ body{
 }
 
 nav{
-    width: 40%; 
+    width: 25%; 
     margin-top: 2%; 
+    margin-left: 35%; 
     height: var(--nav-height); 
     background-color: var(--nav-bkgd-color);
     position:center; 
-    -webkit-border-radius: 25px; 
+    -webkit-border-radius: 30px; 
 }
 
 nav ul{
