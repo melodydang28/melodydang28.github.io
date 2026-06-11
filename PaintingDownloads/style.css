@@ -8,7 +8,7 @@
 :root{
     --nav-height: 4rem; 
     --nav-bkgd-color:  #d7dcb4; 
-    --nav-text-color: white; 
+    --nav-text-color:#fff4d9; 
     font-family: 'franchise', sans-serif; 
     --nav-hover-bkgd-color: lightgray; 
     --nav-hover-text-color: white; 
@@ -49,7 +49,7 @@ ul li{
     display: inline-block;
     padding:0.5px 20px;
     background-color: #5C7A4F; 
-    color: #fff4d9; 
+    color: var(--nav-text-color); 
     text-decoration: none; /* Removes default link underline */
     border: none;
     border-radius: 60px;
