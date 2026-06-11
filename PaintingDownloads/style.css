@@ -1,7 +1,7 @@
 /*Setting custom font*/
 @font-face {
     font-family: 'kav';
-    src: url('PaintingDownloads/Kavoon-Regular.ttf') format('truetype');
+    src: url('/PaintingDownloads/Kavoon-Regular.ttf') format('truetype');
       font-weight: normal;
   font-style: normal;
 }
