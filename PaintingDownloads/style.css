@@ -39,24 +39,27 @@ nav ul{
 ul li{
     height: 50px;
     line-height: 50px;
-    padding: 0 30px;
+    padding: 0 10px;
     text-decoration: none; /* Removes default link underline */
+    
 }
 
 /*Blue "click here" Button Styling*/
 .buttonLink {
     display: inline-block;
-    padding: 5px 5px;
-    background-color: #5c7a4f; 
+    padding:0.5px 20px;
+    background-color: #5C7A4F; 
     color: #fff4d9; 
     text-decoration: none; /* Removes default link underline */
     border: none;
-    border-radius: 30px;
+    border-radius: 60px;
     cursor: pointer; /* "hand" cursor on hover */
     font-size: 16px;
+    margin-top: 5%; 
+    font-size: 1.2em;
   }
 
 /*darker button when hovered*/
 .buttonLink:hover {
-  background-color: #486940; /* Darker green on hover */
+  background-color: #486940; /* Darker blue on hover */
 }
