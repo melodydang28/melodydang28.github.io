@@ -78,8 +78,10 @@ body#home main{
   grid-template-columns: repeat(3, auto); 
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
-    '. title .';
+    '. title .'
+    'descrip descrip descrip';
 }
+
 #home #name{
    grid-area: title; 
   margin-top: 20%; 
@@ -91,4 +93,12 @@ body#home main{
     font-family: 'kav', sans-serif;
     color: white; 
     font-size: 50px;
+}
+
+#home #description{
+    grid-area: descrip; 
+    color: var(--nav-bkgd-color);
+    max-width: 70%;
+    max-height: 80%; 
+    position: center; 
 }
