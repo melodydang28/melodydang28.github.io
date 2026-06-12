@@ -102,7 +102,7 @@ body#home main{
     max-width: 90%;
     padding: 20px 400px 200px 400px; /* space inside the box */
     border-radius: 15px; /* rounded corners */
-    margin: 3% auto; /* centers the box and adds space above */
+    margin: 10% auto; /* centers the box and adds space above */
     box-shadow: 0 1px 34px rgb(237 180 55 / 39%); /* optional subtle shadow */
     line-height: 1.6; 
 }
