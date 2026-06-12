@@ -127,13 +127,14 @@ body#home main{
 
     nav{
         width: 90%; 
-        margin-top: 2%; 
+        margin-top: 5%; 
         margin-left: 5%; 
-        height: var(--nav-height); 
+        height: 3rem; 
         background-color: var(--nav-bkgd-color);
         position:center; 
         -webkit-border-radius: 30px; 
     }
+    
     nav ul{
         list-style: none; 
         display: flex; 
@@ -143,20 +144,23 @@ body#home main{
     ul li{
         height: 50px;
         line-height: 50px;
-        padding: 0 2px;
+        padding: 0 9px;
         text-decoration: none; /* Removes default link underline */
     }
    
     .buttonLink {
-        display: inline-block;
-        padding:0.5px 11px;
+        display: inline-flex;
+        align-items: center;        /* centers vertically */
+        justify-content: center; 
+        length: 6%; 
+        height: 80%; 
+        padding:0.1px 9px;
         background-color: #5C7A4F; 
         color: var(--nav-text-color); 
         text-decoration: none; /* Removes default link underline */
         border: none;
         border-radius: 60px;
         cursor: pointer; /* "hand" cursor on hover */
-        margin-top: 5%; 
         font-size: 1.1em;
       }
 }
