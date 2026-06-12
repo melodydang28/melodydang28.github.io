@@ -6,12 +6,12 @@
   font-style: normal;
 }
 
-/*home page styling*/
-*{
-    padding : 0; 
-    margin: 0; 
+/*home page styling default*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   /* add this line */
 }
-
 /*Defining variables*/
 :root{
     --nav-height: 4rem; 
@@ -100,7 +100,7 @@ body#home main{
     color: var(--nav-bkgd-color);
     background-color: #5C7A4F; /* box background color */
     max-width: 90%;
-    padding: 20px 400px 200px 400px; /* space inside the box */
+    padding: 40px 48px;  /* space inside the box */
     border-radius: 15px; /* rounded corners */
     margin: 10% auto; /* centers the box and adds space above */
     box-shadow: 0 1px 34px rgb(237 180 55 / 39%); /* optional subtle shadow */
