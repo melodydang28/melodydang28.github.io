@@ -110,4 +110,10 @@ body#home main{
 
 #home #description #introTit{
     color: var(--nav-text-color); 
+    text-align: center; 
+}
+
+#home #decription #introDesc{
+    color: var(--nav-text-color); 
+    text-align: center; 
 }
