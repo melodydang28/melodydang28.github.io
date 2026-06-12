@@ -82,10 +82,11 @@ body#home main{
     'descrip descrip descrip';
 }
 
+
 #home #name{
    grid-area: title; 
   margin-top: 20%; 
-  margin-left: 21%; 
+    text-align: center; 
 }
 
 
@@ -94,11 +95,18 @@ body#home main{
     color: white; 
     font-size: 50px;
 }
-
 #home #description{
     grid-area: descrip; 
     color: var(--nav-bkgd-color);
-    max-width: 70%;
-    max-height: 80%; 
-    position: center; 
+    background-color: #5C7A4F; /* box background color */
+    max-width: 90%;
+    padding: 20px 400px 200px 400px; /* space inside the box */
+    border-radius: 15px; /* rounded corners */
+    margin: 3% auto; /* centers the box and adds space above */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* optional subtle shadow */
+    line-height: 1.6; 
+}
+
+#home #description #introTit{
+    
 }
