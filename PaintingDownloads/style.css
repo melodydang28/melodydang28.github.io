@@ -163,5 +163,13 @@ body#home main{
         border-radius: 60px;
         cursor: pointer; /* "hand" cursor on hover */
         font-size: 1.1em;
-      }
+    }
+
+    #home #description{
+        margin-top: 30%; 
+    }
+
+    #home #description #introDesc{
+        margin-top: 20%;
+    }
 }
