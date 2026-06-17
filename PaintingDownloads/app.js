@@ -1,3 +1,23 @@
+  const products = [
+    {
+        id: 1,
+        title: "Spring Ducks",
+        price: 0.50, 
+        img: ""
+    }
+
+  ]
+
+  let  choosenProduct = products[0]; /*Initializes the array*/
+
+  menuItems.forEach((item, index) => {
+    item.addEvenListener("click", () => {
+        choosenProduct = products[indeex];
+    });
+  });
+
+  
+  
   const paypalButtons = window.paypal.Buttons({
    style: {
         shape: "rect",
