@@ -84,24 +84,24 @@ body#home main{
   grid-template-columns: repeat(3, auto); 
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
-    '. title .'
-    'descrip descrip descrip';
+    'title title title'
+    'descrip descrip desPic';
 }
+
 
 
 #home #name{
     grid-area: title; 
-    margin-top: 20%; 
-    margin-left: -150%; 
+    margin-top: 10%;  
     text-align: center; 
 }
-
 
 #home #name #header1{
     font-family: 'kav', sans-serif;
     color: white; 
     font-size: 50px;
 }
+
 #home #description{
     grid-area: descrip; 
     color: var(--nav-bkgd-color);
@@ -126,11 +126,17 @@ body#home main{
     font-size: 1.45em;
     margin-top:5%; 
     font-family: 'jua';
+    margin-right: 50%; 
+    margin-left: 10%; 
 }
 
 
 #home #description #introPic{
+   grid-area: desPic; 
     background-image:url("7S1A2848.jpg"); 
+    width: 30%; 
+    height: 50%; 
+    margin-left: 60%; 
 }
 
 /*Responsive for phone*/
