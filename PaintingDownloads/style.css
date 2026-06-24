@@ -131,7 +131,7 @@ body#home main{
 
 #home #description #introPic{
     grid-area: inPic; 
-
+    background-image:url(7S1A2848.jpg); 
 }
 
 /*Responsive for phone*/
