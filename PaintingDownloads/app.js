@@ -12,7 +12,7 @@
 
   menuItems.forEach((item, index) => {
     item.addEvenListener("click", () => {
-        choosenProduct = products[indeex];
+        choosenProduct = products[index];
     });
   });
 

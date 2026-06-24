@@ -6,6 +6,13 @@
   font-style: normal;
 }
 
+/*Setting custom font*/
+@font-face {
+    font-family: 'jua';
+    src: url('/PaintingDownloads/Jua-Regular.ttf') format('truetype');
+      font-weight: normal;
+  font-style: normal;
+}
 /*home page styling default*/
 * {
     padding: 0;
@@ -78,7 +85,7 @@ body#home main{
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
     '. title .'
-    'descrip descrip descrip';
+    'descrip descrip inpic';
 }
 
 
@@ -114,13 +121,17 @@ body#home main{
 
 #home #description #introDesc{
     color: var(--nav-text-color); 
-    text-align: center; 
+    text-align: left; 
     font-size: 1.45em;
     margin-top:5%; 
+    font-family: 'jua';
 }
 
 
+#home #description #introPic{
+    grid-area: inPic; 
 
+}
 
 /*Responsive for phone*/
 @media screen and (max-width: 600px){
