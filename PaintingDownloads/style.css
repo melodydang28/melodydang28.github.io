@@ -90,8 +90,9 @@ body#home main{
 
 
 #home #name{
-   grid-area: title; 
-  margin-top: 20%; 
+    grid-area: title; 
+    margin-top: 20%; 
+    margin-left: -150%; 
     text-align: center; 
 }
 
@@ -174,6 +175,10 @@ body#home main{
         border-radius: 60px;
         cursor: pointer; /* "hand" cursor on hover */
         font-size: 1.1em;
+    }
+
+      #home #name{
+        margin-left: -30%; 
     }
 
     #home #description{
