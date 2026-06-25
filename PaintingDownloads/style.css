@@ -88,8 +88,6 @@ body#home main{
     'descrip descrip desPic';
 }
 
-
-
 #home #name{
     grid-area: title; 
     margin-top: 10%;  
@@ -102,6 +100,7 @@ body#home main{
     font-size: 50px;
 }
 
+/*Introduction*/
 #home #description{
     grid-area: descrip; 
     color: var(--nav-bkgd-color);
@@ -115,16 +114,18 @@ body#home main{
     height: 100vh; 
 }
 
-
+/*Title*/
 #home #description #introTit{
     color: var(--nav-text-color); 
     text-align: center; 
+    font-size: 2em; 
+     font-family: 'jua';
 }
-
+/*Paragraph*/
 #home #description #introDesc{
     color: var(--nav-text-color); 
     text-align: left; 
-    font-size: 1.45em;
+    font-size: 1.8em;
     margin-top:5%; 
     font-family: 'jua';
     margin-right: 50%; 
