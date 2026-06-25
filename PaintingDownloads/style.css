@@ -88,6 +88,8 @@ body#home main{
     'descrip descrip desPic';
 }
 
+/********************************************************************************/
+/*Home Page*/
 #home #name{
     grid-area: title; 
     margin-top: 10%;  
@@ -142,6 +144,13 @@ body#home main{
     background-repeat: no-repeat;
     background-size: cover; 
 }
+/********************************************************************************/
+/*End of hoem page*/
+/********************************************************************************/
+
+
+
+
 
 /*Responsive for phone*/
 @media screen and (max-width: 600px){
