@@ -185,15 +185,22 @@ body#home main{
         font-size: 1.1em;
     }
 
-      #home #name{
-        margin-left: -30%; 
-    }
-
-    #home #description{
+#home #description{
         margin-top: 30%; 
     }
 
     #home #description #introDesc{
         margin-top: 20%;
+    }
+
+    #home #description #introDesc{
+        width: 80%; 
+    }
+
+    #home #description #introPic{
+        width: 80%; 
+        aspect-ratio: 6 / 5;  /* height auto-scales based on width */
+        margin-left: 10%; 
+        margin-top: 10%; 
     }
 }
