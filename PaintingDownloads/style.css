@@ -142,10 +142,16 @@ body#home main{
     aspect-ratio: 4 / 3;  /* height auto-scales based on width */
     margin-left: 60%; 
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+
+}
+
+.zoom-img:hover{
+  transform: scale(1.1);
+  transform: rotate(10deg); 
 }
 /********************************************************************************/
-/*End of hoem page*/
+/*End of home page*/
 /********************************************************************************/
 
 
