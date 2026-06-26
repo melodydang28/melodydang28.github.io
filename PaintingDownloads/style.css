@@ -148,7 +148,8 @@ body#home main{
 
 .zoom-img:hover{
   transform: scale(1.1);
-  transform: rotate(10deg); 
+  transform: rotate(-10deg); 
+  transform: 0.4s ease-in;
 }
 /********************************************************************************/
 /*End of home page*/
