@@ -84,8 +84,9 @@ body#home main{
   grid-template-columns: repeat(3, auto); 
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
-    'title title title'
-    'descrip descrip desPic';
+    'title title title',
+    'descrip descrip desPic',
+    'collecTit collecTit collecTit';
 }
 
 /********************************************************************************/
@@ -144,7 +145,14 @@ body#home main{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -5%; 
+}
 
+
+#home #description #homeCollect{
+    grid-area: collecTit; 
+    font-family: 'jua';
+    font-size: 2.5em; 
+    text-align: center; 
 }
 
 .zoom-img:hover{
@@ -152,6 +160,8 @@ body#home main{
   transform: rotate(-10deg); 
   transform: 0.4s ease-in;
 }
+
+
 /********************************************************************************/
 /*End of home page*/
 /********************************************************************************/
