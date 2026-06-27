@@ -246,4 +246,8 @@ body#home main{
         margin-left: 10%; 
         margin-top: 10%; 
     }
+    
+     #home #description #homeCollect{
+        margin-top: 50%; 
+    }
 }
