@@ -84,8 +84,8 @@ body#home main{
   grid-template-columns: repeat(3, auto); 
   grid-template-rows: repeat(6, auto); 
   grid-template-areas: 
-    'title title title',
-    'descrip descrip desPic',
+    'title title title'
+    'descrip descrip desPic'
     'collecTit collecTit collecTit';
 }
 
