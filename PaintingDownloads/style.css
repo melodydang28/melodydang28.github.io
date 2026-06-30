@@ -158,10 +158,11 @@ body#home main{
     margin-top: 10%; 
 }
 
-.zoom-img:hover{
-  transform: scale(2);
-  transform: rotate(-10deg); 
-  transform: 0.4s ease-in;
+.zoom-img {
+  transition: transform 0.4s ease-in;   /* on the base element */
+}
+.zoom-img:hover {
+  transform: scale(2) rotate(-10deg);     /* combined into ONE transform */
 }
 
 
